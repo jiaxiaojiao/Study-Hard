@@ -18,7 +18,6 @@ GitHub https://github.com/influxdata/influxdb
 ### 介绍
 
 * 使用TSM(Time Structured Merge)存储引擎，允许高摄取速度和数据压缩
-* 
 
 ### 基础概念
 
@@ -88,4 +87,5 @@ show field keys
 
 查看一个measurement中所有的保存策略(可以有多个，一个标识为default)：
 show retention policies;
-z```
+```
+
