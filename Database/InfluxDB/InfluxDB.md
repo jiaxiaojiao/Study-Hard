@@ -13,7 +13,16 @@ GitHub https://github.com/influxdata/influxdb
 ### 目录
 * [介绍](#介绍)
 * [基础概念](#基础概念)
-* [常用InfluxQL](#InfluxQL)
+* [开始使用InfluxDB v2.0](Get-started.md)
+    * [写数据 Write data](Write-data.md)
+    * [查询数据 Query data](Query-data.md)
+    * [数据进程 Process data](Process-data.md)
+    * [数据可视化 Visualize data](Visualize-data.md)
+    * [数据监控和警报 Monitor & alert](Monitor-alert.md)
+    * [组织管理 Manage organizations](Manage-organizations.md)
+    * [用户管理 Manage users](Manage-users.md)
+    * [权限和安全管理 Security & authorization](Security-authorization.md)
+    * [常用InfluxQL](InfluxQL.md)
 
 ### 介绍
 
@@ -48,44 +57,4 @@ GitHub https://github.com/influxdata/influxdb
     field set：每组field key和field value的集合
     
     series：共同retention policy，measurement和tag set的集合
-
-### InfluxQL
-
-```text
-创建数据库：
-create database mydb
-
-创建用户：
-create user "bigdata" with password 'bigdata' with all privileges
-
-查看数据库：
-show databases;
-
-数据插入：
-insert bigdata,host=server001,regin=HC load=88
-
-使用特定的数据库：
-use database_name;
-
-查看所有的measurement：
-show measurements;
-
-查询10条数据：
-select * from measurement_name limit 10;
-
-数据中的时间字段默认显示的是一个纳秒时间戳，改成可读格式：
-precision rfc3339; -- 之后再查询，时间就是rfc3339标准格式
-
-或可以在连接数据库的时候，直接带该参数：
-influx -precision rfc3339
-
-查看一个measurement中所有的tag key：
-show tag keys
-
-查看一个measurement中所有的field key ：
-show field keys
-
-查看一个measurement中所有的保存策略(可以有多个，一个标识为default)：
-show retention policies;
-```
 
