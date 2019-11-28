@@ -1,18 +1,30 @@
 ## Vue.js
 
+用户指南： https://vuejs.org/v2/guide/syntax.html  
+
+用户指南-中文： https://cn.vuejs.org/v2/guide/syntax.html
+
 > 学习Vue.js之前需要有扎实的JavaScript/HTML/CSS基础。
 >
-> 来源： https://zhuanlan.zhihu.com/p/23134551
+> 参考： https://zhuanlan.zhihu.com/p/23134551
 
 ### 目录
+* 描述
 * 基础
 * 学习步骤
 * 进阶
+* 调试插件
+    * chrome插件vue Devtools
+
+### 描述
+Vue.js 是一个JavaScriptMVVM库，是一套构建用户界面的渐进式框架。它是以数据驱动和组件化的思想构建的，采用自底向上增量开发的设计。
+
+> MVVM 是Model-View-ViewModel的简写，它本质上就是MVC 的改进版。MVVM 就是将其中的View 的状态和行为抽象化，让我们将视图 UI 和业务逻辑分开。
 
 ### 基础
 * JavaScript 规范
-    * ECMAScript 的历史和目前的规范制定方式
-    * ES2015/16 的新特性
+    * [ECMAScript 的历史和目前的规范制定方式](ECMAScript.md#ES2015和ES6的关系)
+    * ES2015/ES2016 的新特性
     * ES2015 modules
 * 命令行的使用。（建议使用Mac）
 * Node.js基础。
