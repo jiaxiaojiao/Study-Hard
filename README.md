@@ -26,6 +26,13 @@ https://seata.io/zh-cn/
 
 https://github.com/ctripcorp/apollo
 
+1. 对代码的侵入性
+2. 对代码的改造难度。
+3. 支持哪几种RPC方式/HTTP
+4. 跟Spring Boot，SOFABoot的结合度
+5. 兼容
+6. Apollo 源码，7点好处。
+
 
 
 
