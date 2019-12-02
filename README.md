@@ -8,4 +8,25 @@
 
 
 
+### 其他
+
+http://www.txlcn.org/zh-cn/  TX-LCN分布式事务框架
+
+https://github.com/codingapi/tx-lcn
+
+https://github.com/1991wangliang/tx-lcn
+
+https://www.sofastack.tech/projects/sofa-boot/overview/
+
+https://www.sofastack.tech/projects/sofa-mosn/overview/
+
+https://www.sofastack.tech/projects/sofa-mesh/overview/
+
+https://seata.io/zh-cn/
+
+https://github.com/ctripcorp/apollo
+
+
+
+
 
