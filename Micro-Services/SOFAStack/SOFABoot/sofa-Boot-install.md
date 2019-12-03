@@ -7,6 +7,8 @@
 
 SOFABoot 基于 Spring Boot 框架开发，并依赖 Apache Maven 进行构建。SOFABoot 和 Spring Boot 版本对应关系，以及 JDK 版本要求如下：
 
+[发布历史](https://github.com/sofastack/sofa-boot/releases) 可以查看所有发布报告。
+
 <table>
   <tr><th>SOFABoot 版本</th><th>Spring Boot 版本</th><th>JDK 版本</th></tr>
   <tr><td>3.x</td><td>2.0.3.RELEASE</td><td>JDK 8+</td></tr>
