@@ -2,7 +2,7 @@
 
 网站：https://www.sofastack.tech/projects/sofa-mosn/overview/
 
-> SOFAMson 是一款使用 Go 语言开发的 Service Mesh 数据平面代理，
+> SOFAMosn 是一款使用 Go 语言开发的 Service Mesh 数据平面代理，
 > 旨在为服务提供分布式、模块化、可观察和智能化的代理能力。
 > SOFAMosn 是 SOFAStack 中的一个项目，
 > 其中 MOSN 是 Modular Observable Smart Network 的简称。
