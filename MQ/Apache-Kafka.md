@@ -1,10 +1,22 @@
 ## Apache Kafka
 
+网站： kafka.apache.org
+
 > A distributed streaming platform.
 > 
-> 内容来源： kafka.apache.org
+> 内容来源（参考）： 官网，百度百科 
 
-### Apache Kafka® is a distributed streaming platform. What exactly does that mean?
+### 目录
+* [Kafka是什么？](#Kafka是什么？)
+* [什么是分布式流平台？](#什么是分布式流平台？)
+
+### Kafka是什么？
+
+Kafka是由Apache软件基金会开发的一个开源流处理平台，由Scala和Java编写。Kafka是一种高吞吐量的分布式发布订阅消息系统
+
+### 什么是分布式流平台？
+
+Apache Kafka® is a distributed streaming platform. What exactly does that mean?
 
 A streaming platform has three key capabilities:
 * Publish and subscribe to streams of records, similar to a message queue or enterprise messaging system.
