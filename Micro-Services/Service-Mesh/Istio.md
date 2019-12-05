@@ -4,11 +4,18 @@
 
 GitHub： https://github.com/istio/istio
 
+中文文档： https://preliminary.istio.io/zh/docs/concepts/what-is-istio/
+
 > Istio是一个十分流行的service mesh项目，它起源于Lyft。 
 >
+>
+> 参考： 官网，GitHub，中文文档，Bilibili-向上的信念-Istio教程
 
+### 目录
+* Istio的功能特性
+* Istio的应用扩展
 
-### Istio的功能
+### Istio的功能特性
 
 Connect, secure, control, and observe services.
 
@@ -17,16 +24,7 @@ Connect, secure, control, and observe services.
 * 控制 Control： （策略执行） 限流，ACL访问规则的配置
 * 观察 Observe： 调用链，访问日志，监控
 
-支持的扩展平台： 
-* Kubernetes (K8s)  应用容器化管理
-* Cloud Foundry
-* Eureka
-* Consul
 
-还可以集成和定制一些功能：
-* ACL 安全规则
-* 日志
-* 配额
 
 ### Istio的应用
 
@@ -37,7 +35,18 @@ Connect, secure, control, and observe services.
     Kubernetes提供了很强的部署运维能力（部署、运维、扩缩容、服务发现、负载均衡），但是在服务发现和负载均衡比较简单。
     
     Istio的服务治理（调用链追踪、动态路由、熔断限流...）跟Kubernetes完美结合。
+    
+* 支持的扩展平台： 
+    * Kubernetes (K8s)  应用容器化管理
+    * Cloud Foundry
+    * Eureka
+    * Consul
 
+* 还可以集成和定制一些功能：
+    * ACL 安全规则
+    * 日志
+    * 配额
+    
 ### Istio的架构
 
 ![Istio架构](../images/istio-architecture.svg)
