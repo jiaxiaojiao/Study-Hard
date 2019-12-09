@@ -6,17 +6,19 @@ GitHub: https://github.com/sofastack/sofa-boot
 
 网站： https://www.sofastack.tech/projects/sofa-boot/overview/
 
-
-
 > SOFABoot 是蚂蚁金服开源的基于 Spring Boot 的研发框架，它在 Spring Boot 的基础上，提供了诸如 Readiness Check，类隔离，日志空间隔离等等能力。在增强了 Spring Boot 的同时，SOFABoot 提供了让用户可以在 Spring Boot 中非常方便地使用 SOFA 中间件的能力。
 > 
 > 参考： 官网和官方GitHub
 
 ### 目录
-* 背景（Spring Boot的局限性）
-* 什么是SOFABoot
-* 功能特性
-* 基础术语
+* [背景（Spring Boot的局限性）](#背景)
+* [是什么？](#是什么？)
+* [是否开源](#是否开源)
+* [主要功能](#功能特性)
+* [兼容性](#兼容性)
+* [优缺点](#优缺点)
+* [其他替代组件](#其他替代组件)
+* [基础术语](#基础术语)
 * [安装和使用](sofa-Boot-install.md)
 * [快速开始](sofa-Boot-quick-start.md)
 
@@ -34,7 +36,7 @@ Spring Boot 是一个非常优秀的开源框架，可以非常方便地就构�
 
 为了解决以上的问题，又因为 SOFA 中间件中的各个组件本身就需要集成 Spring Boot，所以蚂蚁金服基于 Spring Boot 开发并开源了 SOFABoot，来解决以上的问题，也方便使用者在 Spring Boot 中方便地去使用 SOFA 中间件。
 
-### 什么是SOFABoot
+### 是什么？
 
 SOFABoot 是基于 Spring Boot 的开发框架，用于快速、敏捷地开发 Spring 应用程序，特别适合构建微服务系统。SOFABoot 在 Spring Boot 的基础上提供了诸如 Readiness Check、类隔离、日志空间隔离等能力，以解决大规模团队开发云原生微服务系统中会遇到的问题。同时 SOFABoot 也提供了蚂蚁金服金融科技中间件的轻量级集成方案，仅需少量配置即可在 SOFABoot 中使用金融科技中间件。金融科技中间件也可通过相应的 starter 模块单独配置集成到 Spring Boot 工程中。普通 Spring 工程通过 Embedded-SOFA 模式可以方便地集成并使用金融科技中间件。
 
@@ -45,6 +47,10 @@ SOFABoot 基于 Spring Boot 1.4.2 版本开发，使用标准 Spring 接口实�
 SOFABoot 支持创建 Web 和 Core 两种类型的工程。当使用 SOFABoot 开发一个 Web 程序时，相当于“基于 Spring Boot 的 Web 应用 + 蚂蚁金服中间件” 进行开发；当使用 SOFABoot 开发一个 J2SE 程序（无 Web 页面访问），相当于“基于 Spring Boot 的非 Web 应用（无 servlet 依赖）+ 蚂蚁金服中间件” 进行开发。
 
 SOFABoot 作为开发框架，在整个微服务架构中起着至关重要的作用，其本身也在不断优化升级。
+
+### 是否开源
+
+开源
 
 ### 功能特性
 
@@ -73,6 +79,16 @@ SOFABoot 框架不仅能实现中间件的集成管理、自动配置以及调�
 * 完整的技术栈
 
     拥有一套完整的技术栈，能自动解决后续的依赖下载、应用部署、健康检查、运维监控等问题。开发人员集成框架后，只需专心编写业务代码。
+
+### 兼容性
+
+Spring Boot基础上开发，兼容Spring
+
+### 优缺点
+
+### 其他替代组件
+
+Spring Boot框架
 
 ### 基础术语
 
