@@ -12,8 +12,9 @@ GitHub： https://github.com/istio/istio
 > 参考： 官网，GitHub，中文文档，Bilibili-向上的信念-Istio教程
 
 ### 目录
-* Istio的功能特性
-* Istio的应用扩展
+* [功能特性](#Istio的功能特性)
+* [应用扩展](#Istio的应用)
+* [架构](#Istio的架构)
 
 ### Istio的功能特性
 
@@ -23,8 +24,6 @@ Connect, secure, control, and observe services.
 * 安全加固 Secure： （服务身份和安全） 认证，鉴权
 * 控制 Control： （策略执行） 限流，ACL访问规则的配置
 * 观察 Observe： 调用链，访问日志，监控
-
-
 
 ### Istio的应用
 

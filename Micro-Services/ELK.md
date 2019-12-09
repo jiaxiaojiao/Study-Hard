@@ -2,8 +2,6 @@
 
 网站： https://www.elastic.co/cn/
 
-GitHub： 
-
 > 描述
 >
 > 参考： 官网， https://blog.csdn.net/u012562943/article/details/99946609
