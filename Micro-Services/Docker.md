@@ -12,9 +12,7 @@ GitHub: https://github.com/docker
 >
 > Securely build, share and run any application, anywhere
 >
-> 参考： 官网，GitHub，中文社区
-<br> 参考： https://www.cnblogs.com/micrari/p/6748072.html
-<br> 参考： https://www.gitdig.com/k8s-my-definition/
+> 参考： 官网，GitHub，中文社区， https://www.cnblogs.com/micrari/p/6748072.html，https://www.gitdig.com/k8s-my-definition/
 
 ### 目录
 * [描述](#描述)
