@@ -1,13 +1,13 @@
 ## Apollo
 
-网站： 
+GitHub： https://github.com/ctripcorp/apollo
 
-GitHub： 
+https://gitee.com/lepdou/apollo
 
 > 统一配置中心。 宋顺
 >
 > 开源，学习下源码，优点
-> 参考： 
+> 参考： 官网。网络。
 
 ### 目录
 * [是什么？](#是什么？)
