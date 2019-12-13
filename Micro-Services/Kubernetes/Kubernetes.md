@@ -27,10 +27,11 @@ GitHub： https://github.com/kubernetes/kubernetes
 Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
 
 Kubernetes (K8s) 是一个开源系统，用于容器化应用的自动部署、扩缩和管理。
-
+`-*`
 Kubernetes 将构成应用的容器按逻辑单位进行分组以便于管理和发现。 Kubernetes 基于 谷歌公司在运行生产负载上的 15 年经验 打造，并融合了来自社区的最佳建议与实践。
 
 灵活！
+
 
 云原生应用(Cloud Native Application)技术
 

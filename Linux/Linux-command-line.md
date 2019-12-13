@@ -1,6 +1,25 @@
 ## Linux 常用命令行脚本
 
+### 目录
+* [查看Linux内核版本](#查看Linux内核版本)
+* [安装命令](#安装命令)
+* [操作文件](#操作文件)
 
+### 查看Linux内核版本
+
+1. `uname -a`
+2. `lsb_release -a`
+3. `cat /etc/issue`
+
+### 安装命令
+* 安装sodo
+
+`# yum install sudo`
+
+*yum 安装软件必须在联网的情况下才能操作。
+
+
+### 操作文件
 * 移动文件到指定目录
 ```text
 mv xx /usr/local/
