@@ -64,6 +64,23 @@ Service Mesh的好处是将服务治理作为通用组件，下沉到平台层�
     
 ### Istio的架构
 
+Istio从逻辑上分为数据平面和控制平面
+
+* 数据平面中的Sidecar代理是由Envoy组件（C++开发的高性能代理）承担。
+
+    Envoy提供了很多内在的特性如：
+    * 动态服务发现
+    * 负载均衡
+    * TLS终止
+    * HTTP/2和gRPC代理
+    * 熔断器
+    * 健康检查
+    * 基于百分比的流量分割
+    * 故障注入
+    * 丰富的指标
+    
+* 控制平面Pilot、Galley、Citadel、Mixer。
+
 ![Istio架构](../images/istio-architecture.svg)
 
 1. Service A , Service B  用户的服务。
@@ -74,6 +91,7 @@ Service Mesh的好处是将服务治理作为通用组件，下沉到平台层�
 6. Mixer： 主要包括两部分，Policy checks(策略管理，服务通信时能不能访问、多频繁的访问)，telemetry(监控，调用链分析)
 7. Citadel： 用来配置服务之间访问的安全，证书生成和下发，在Citadel里统一管理。
 8. Galley： 验证用户配置的规则有没有效果。
+
 
 
 ### Istio与Spring Cloud组件对比

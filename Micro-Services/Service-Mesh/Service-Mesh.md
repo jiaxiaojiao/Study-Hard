@@ -4,12 +4,14 @@
 > 
 > 解决微服务之间通信愈发复杂的问题。
 >
-> 参考： 官网和 https://blog.51cto.com/12462495/2437636
+> 参考： 官网和 https://blog.51cto.com/12462495/2437636，
+> https://www.cnblogs.com/bocloud/p/10895296.html
 
 ### 目录
 * [是什么？](#Service Mesh的定义)
 * [作用和功能](#Service Mesh的作用和功能)
 * [项目](#Service Mesh领域的项目)
+* [其他-Spring Cloud向Service Mesh转变](https://www.cnblogs.com/bocloud/p/10895296.html)
 
 ### Service Mesh的定义
 
