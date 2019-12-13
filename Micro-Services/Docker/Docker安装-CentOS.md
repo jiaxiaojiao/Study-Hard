@@ -70,7 +70,10 @@ CentOS 项目为开发者提供了大量的的示例镜像，作为开发模板�
 #### 具体命令和安装明细
 * 安装位置
 
-    本机虚拟机 VM-1
+    本机虚拟机 VM-1 192.168.229.128 （root-jiaxiaojiao）
+    本地虚拟机 VM-2 192.168.229.131 （root-jiaxiaojiao）
+    本地虚拟机 VM-3 192.168.229.132 （root-jiaxiaojiao）
+    
 
 * 安装sudo命令
 ```text
