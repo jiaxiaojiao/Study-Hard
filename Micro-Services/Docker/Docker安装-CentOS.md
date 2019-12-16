@@ -36,24 +36,32 @@ CentOS-7 中介绍了 firewalld，firewall的底层是使用iptables进行数据
 
 当 Docker 安装完成之后，你需要启动 docker 进程。
 
-$ sudo service docker start
+`$ sudo service docker start`
+
 如果我们希望 Docker 默认开机启动，如下操作：
 
-$ sudo chkconfig docker on
+`$ sudo chkconfig docker on`
+
 现在，我们来验证 Docker 是否正常工作。第一步，我们需要下载最新的 centos 镜像。
 
-$ sudo docker pull centos
+`$ sudo docker pull centos`
+
 下一步，我们运行下边的命令来查看镜像，确认镜像是否存在：
 
-$ sudo docker images centos
+`$ sudo docker images centos`
+
 这将会输出如下的信息：
 
+```text
 $ sudo docker images centos
 REPOSITORY      TAG             IMAGE ID          CREATED             VIRTUAL SIZE
 centos          latest          0b443ba03958      2 hours ago         297.6 MB
+```
+
 运行简单的脚本来测试镜像：
 
-$ sudo docker run -i -t centos /bin/bash
+`$ sudo docker run -i -t centos /bin/bash`
+
 如果正常运行，你将会获得一个简单的 bash 提示，输入 exit 来退出。
 
 
@@ -68,6 +76,7 @@ CentOS 项目为开发者提供了大量的的示例镜像，作为开发模板�
 `https://github.com/CentOS/CentOS-Dockerfiles`
 
 #### 具体命令和安装明细
+
 * 安装位置
 
     本机虚拟机 VM-1 192.168.229.128 （root-jiaxiaojiao）
