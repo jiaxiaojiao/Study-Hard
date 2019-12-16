@@ -5,7 +5,7 @@
 ### 目录
 * [支持Docker的CentOS版本](#支持Docker的CentOS版本)
 * [1. CentOS7 安装Docker](#1.-CentOS7-安装Docker)
-* [2. 开始运行 Docker daemon](#2.-开始运行-Docker daemon)
+* [2. 开始运行 Docker daemon](#2.-开始运行-Docker-daemon)
 * [自定义进程选项](#自定义进程选项)
 * [Dockerfiles](#Dockerfiles)
 * [具体命令和安装明细](#具体命令和安装明细)
