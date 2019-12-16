@@ -81,7 +81,7 @@ Istio从逻辑上分为数据平面和控制平面
     
 * 控制平面Pilot、Galley、Citadel、Mixer。
 
-![Istio架构](../images/istio-architecture.svg)
+![Istio架构](../images/istio-architecture.png)
 
 1. Service A , Service B  用户的服务。
 2. Proxy 在Istio中默认是envoy， 主要做服务之间的转发

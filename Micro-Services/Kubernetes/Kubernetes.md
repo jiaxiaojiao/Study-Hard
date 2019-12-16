@@ -8,44 +8,90 @@ GitHub： https://github.com/kubernetes/kubernetes
 
 > 生产级别的容器编排系统 - 自动化的容器部署、扩展和管理
 > 
-> (从组件的是否开源、功能、兼容性、部署难度、优缺点、其他可替代组件来分析。)
->
-> 参考：  官网，GitHub，中文社区，https://www.jianshu.com/p/94e551534035，https://blog.csdn.net/wzq756984/article/details/88977439
+> 
+> 参考：  官网，
+> GitHub，
+> 中文社区，
+> https://www.jianshu.com/p/94e551534035，
+> https://blog.csdn.net/wzq756984/article/details/88977439， 
+> 哔哩哔哩-尚硅谷 Kubernetes
 
 ### 目录
-* [是什么？](#是什么？)
-* [历史和特点](#历史和特点)
+* [Kubernetes是什么？](#Kubernetes是什么？)
+    * [为什么简称K8s](#为什么简称K8s)
+* [Kubernetes的发展经历](#Kubernetes的发展经历)
+    * [为什么要有Kubernetes](#Google为什么开源Kubernetes)
+    * [Kubernetes的特点](#Kubernetes的特点)
+    * [如何成为当前唯一被业界广泛认可和看好的Docker分布式集群解决方案](#如何成为当前唯一被业界广泛认可和看好的Docker分布式集群解决方案)
 * [是否开源](#是否开源)
 * [主要功能](#主要功能)
 * [兼容性](#兼容性)
-* [优缺点](#优缺点)
+* [Kubernetes的优点](#Kubernetes的优点)
 * [容器化的优点](#容器化的优点)
-* [其他替代组件](#其他替代组件)
+* Kubernetes的架构和使用
+    * [K8S组件说明](Kubernetes-组件.md)
+    * [K8S基础概念](Kubernetes-基础概念.md)
+    * [Kubernetes安装](Kubernetes-安装.md)
+    * [资源清单](资源清单.md)
+    * [Pod控制器](Pod控制器.md)
+    * [服务发现](服务发现.md)
+    * [存储](存储.md)
+    * [调度器](调度器.md)
+    * [集群安全机制](集群安全机制.md)
+    * [HELM](HELM.md)
+    * [运维](运维.md)
 
-### 是什么？
+### Kubernetes是什么？
 
-Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
+> Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
 
 Kubernetes (K8s) 是一个开源系统，用于容器化应用的自动部署、扩缩和管理。
 
-Kubernetes 这个单词来自于希腊语，含义是舵手或领航员。K8S是它的缩写，用“8”字替代了“ubernete”这8个字符。
-
-Kubernetes 将构成应用的容器按逻辑单位进行分组以便于管理和发现。 Kubernetes 基于 谷歌公司在运行生产负载上的 15 年经验 打造，并融合了来自社区的最佳建议与实践。
+Kubernetes 将构成应用的容器按逻辑单位进行分组以便于管理和发现。 
 
 灵活！
 
 云原生应用(Cloud Native Application)技术
 
-### 历史和特点
+#### 为什么简称K8s
 
-Kubernetes是Google 2014年宣布开源的，是Google 10多年大规模容器管理技术Borg的开源版本。
+Kubernetes 这个单词来自于希腊语，含义是舵手或领航员。K8S是它的缩写，用“8”字替代了“ubernete”这8个字符。
 
+### Kubernetes的发展经历
+1. 容器化趋势： Docker成为[PaaS](../../云服务云计算/云服务云计算.md)下一代的标准。Docker这个新兴的容器化技术当前已经被很多公司所采用，其从单机走向集群已经成为必然，而云计算的蓬勃发展正在加速这一进程。 
+
+2. 集群管理的需求： Docker分布式容器集群的管理起来比较复杂，需要资源管理平台来进行集群管理。
+
+3. 资源管理平台使用历程： Apache MESOS -> Docker SWARM -> Kubernetes
+
+4. Kubernetes地位确定： Kubernetes 作为当前唯一被业界广泛认可和看好的Docker分布式集群解决方案，可以预见，在未来几年内，会有大量的新系统选择它。
+
+#### 资源管理平台
+* Apache MESOS。 Apache License 2.0 开源协议。分布式的资源管理框架。2019.05 Twitter宣布放弃使用MESOS，转向Kubernetes。逐渐走下历史舞台……
+
+* Docker SWARM。 Docker的集群化方案，已经成为Docker的一个组件。 2019.07 阿里云宣布Docker SWARM从选择列表中剔除。 优点： 轻量，在大型集群管理也不错。 缺点： 功能少，缺少更新回滚功能。 现在用的比较少。
+
+* Kubernetes。  优点：功能稳定全面，是Google 10多年的积累。
+
+#### Google为什么开源Kubernetes
+Docker的大规模运行，很多公司都在研究资源管理平台，比如： Apache MESOS，Docker SWARM。 Google 为了巩固自己的在资源管理平台的领导地位，迂回争夺云计算市场，使用Go语言基于Borg开发出了Kubernetes 并且开源了出来。
+
+谷歌惯于通过开源操作系统统治世界，进而实现更大的商业价值。比如： Android，TensorFlow。
+
+#### Kubernetes的特点
 我们的目标是促进完善组件和工具的生态系统，以减轻应用程序在公有云或私有云中运行的负担。
 
 Kubernetes 特点
 * 可移植: 支持公有云，私有云，混合云，多重云（multi-cloud）
 * 可扩展: 模块化, 插件化, 可挂载, 可组合
 * 自动化: 自动部署，自动重启，自动复制，自动伸缩/扩展
+
+#### 如何成为当前唯一被业界广泛认可和看好的Docker分布式集群解决方案
+1. 靠山硬： Kubernetes 是Google 2014年宣布开源的，是Google 10多年大规模容器管理技术Borg的开源版本，集结了Borg的精华。
+2. 15+的经验实践技术成熟 + 社区最佳建议与实践： Kubernetes 基于谷歌公司在运行生产负载上的10年经验打造，并融合了来自社区的最佳建议与实践。
+3. Kubernetes的特点： 轻量级(Go语言，消耗资源少)，开源，可扩展(弹性伸缩)，负载均衡(IPVS)
+
+### 各个组件的作用
 
 ### 是否开源
 
@@ -79,7 +125,7 @@ Kubernetes 基础模块：
 
 容器与语言无关
 
-### 优缺点
+### Kubernetes的优点
 
 K8s是一个开源的容器集群管理系统，可以实现容器集群的自动化部署、自动扩缩容、维护等功能。
 1. 易学： 轻量级，简单，容易理解
@@ -105,9 +151,4 @@ K8s是一个开源的容器集群管理系统，可以实现容器集群的自�
 * Loosely coupled，分布式，弹性，微服务化：应用程序分为更小的、独立的部件，可以动态部署和管理。
 * 资源隔离
 * 资源利用：更高效
-
-### 其他替代组件
-
-Docker这个新兴的容器化技术当前已经被很多公司所采用，其从单机走向集群已经成为必然，而云计算的蓬勃发展正在加速这一进程。 Kubernetes 作为当前唯一被业界广泛认可和看好的Docker分布式集群解决方案，可以预见，在未来几年内，会有大量的新系统选择它。
-
 
