@@ -23,7 +23,7 @@
 ### 基于Docker本地运行Kubernetes
 通过Docker创建一个单机、单节点的Kubernetes集群
 
-![基于Docker创建一个单机单节点的Kubernetes集群](../../Micro-Services/images/kubernetes-docker.jpg)
+![基于Docker创建一个单机单节点的Kubernetes集群](../../Architecture/Micro-Services/images/kubernetes-docker.jpg)
 
 #### 条件
 1. [一台安装有Docker的机器](#验证是否成功安装Docker)

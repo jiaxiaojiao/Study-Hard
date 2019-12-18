@@ -34,7 +34,7 @@ LCN分布式事务框架其本身并不创建事务，而是基于对本地事�
 
 ### 架构
 
-![架构](../Micro-Services/images/TX-LCN-architecture.png)
+![架构](../Architecture/Micro-Services/images/TX-LCN-architecture.png)
 
 ### 功能特性
 
