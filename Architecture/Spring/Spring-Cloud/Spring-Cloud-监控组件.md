@@ -7,7 +7,7 @@
 * [替代方案](#替代方案)
 
 ### 替代方案
-* [Zabbix](../../Component/Zabbix.md)
-* [Prometheus](../../Component/Prometheus.md)
-* [Nagios](../../Component/Nagios.md)
-* [Open-Falcon](../../Component/Open-Falcon.md) 运维监控系统
+* [Zabbix](../../../Component/Zabbix.md)
+* [Prometheus](../../../Component/Prometheus.md)
+* [Nagios](../../../Component/Nagios.md)
+* [Open-Falcon](../../../Component/Open-Falcon.md) 运维监控系统
