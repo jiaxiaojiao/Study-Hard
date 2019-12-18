@@ -44,9 +44,6 @@ Go is an open source programming language that makes it easy to build simple, re
     Hello, World!
     ```
 
-
-
-
 ### 优点和缺点
 
 优点： 

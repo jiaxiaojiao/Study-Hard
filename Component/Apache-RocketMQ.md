@@ -42,7 +42,7 @@ RocketMQ | Java, C++, Go | Pull model, support TCP, JMS, OpenMessaging | Ensure 
 
 ### 架构图
 
-![images](images/rmq-basic-arc.png)
+![images](../MQ/images/rmq-basic-arc.png)
 
 ### 已发布版本
 

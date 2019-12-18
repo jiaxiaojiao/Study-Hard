@@ -18,7 +18,7 @@ Apache Dubbo |ˈdʌbəʊ| 是一款高性能、轻量级的开源Java RPC框架�
 
 ### Dubbo 架构图
 
-![images](images/dubbo-architecture.png)
+![images](../RPC/images/dubbo-architecture.png)
 
 ### Dubbo 特性
 

@@ -8,9 +8,12 @@
 ### 目录
 * [Borg组件说明](#Borg组件说明)
 * [K8S结构说明/架构](#K8S结构说明/架构)
+    * Master 组件
+    * Node 节点组件
+    * [Kubectl 命令行管理工具](#Kubectl-命令行管理工具)
 
 ### Borg组件说明
-![Borg架构](../images/google-borg-architecture.png)
+![Borg架构](../../Micro-Services/images/google-borg-architecture.png)
 
 Borg主要由BorgMaster、Borglet、borgcfg和Scheduler组成
 * 支持的访问方式调度集群的管理 ： web browsers 浏览器， command-line tools 命令行， config file - borgcfg 配置文件读取。 
@@ -25,7 +28,7 @@ Borg主要由BorgMaster、Borglet、borgcfg和Scheduler组成
 3. Borglet 监听数据库Paxos，消费请求，处理请求。
 
 ### K8S结构说明/架构
-![Kubernetes架构](../images/Kubernetes-Architecture.png)
+![Kubernetes架构](../../Micro-Services/images/Kubernetes-Architecture.png)
 
 架构： 
 * Master。 包括： 。
@@ -57,7 +60,7 @@ Borg主要由BorgMaster、Borglet、borgcfg和Scheduler组成
 1. Scheduler 调度器会调用Api Server， Api Server 负责把数据写入 etcd。
 
 #### ETCD架构
-![ETCD架构](../images/ETCD-Architecture.png)
+![ETCD架构](../../Micro-Services/images/ETCD-Architecture.png)
 
 
 etcd的官方将它定位成一个可信赖的分布式键值存储服务，它能够为整个分布式集群存储一些关键数据，协助分布式集群的正常运转。
@@ -72,3 +75,19 @@ Etcd Storage 存储有两个版本：
 
 推荐在Kubernetes 集群中使用Etcd V3版。 V2 版本在Kubernetes v1.11中弃用。
 
+### Kubectl 命令行管理工具
+Kubectl用于运行Kubernetes集群命令的管理工具。
+
+#### 语法
+在管理工具界面使用kubectl语法运行如下命令：
+
+```text
+kubectl [command] [TYPE] [NAME] [flags]
+```
+
+* command：指定要在一个或多个资源执行的操作，例如操作create，get，describe，delete。
+* TYPE：指定资源类型Resource types。
+
+#### [安装和设置kubectl](Kubernetes-kubectl-install.md)
+
+#### [Kubectl命令](Kubernetes-kubectl-CLI.md)
