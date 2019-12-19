@@ -1,46 +1,42 @@
 ## Apollo
+**_学习_**
 
-GitHub： https://github.com/ctripcorp/apollo
+源码1： https://github.com/ctripcorp/apollo
 
-https://gitee.com/lepdou/apollo
+源码2： https://gitee.com/lepdou/apollo
 
 > 统一配置中心。 宋顺
 >
 > 开源，学习下源码，优点
-> 参考： 官网。网络。
 
 ### 目录
-* [是什么？](#是什么？)
+* [Apollo 是什么？](#Apollo-是什么？)
 * [是否开源](#是否开源)
-* [主要功能](#主要功能)
-* [支持的注册中心](#支持的注册中心)
+* [Apollo 的主要功能](#Apollo-的主要功能)
+* [Apollo 支持的注册中心](#Apollo-支持的注册中心)
 * [兼容性](#兼容性)
 * [优缺点](#优缺点/特点)
 * [其他替代组件](#其他替代组件)
 * [配置中心对比](#配置中心对比)
+* [参考](#参考)
 
-### 是什么？
-
+### Apollo 是什么？
 Apollo（阿波罗）是携程框架部门研发的分布式配置中心，能够集中化管理应用不同环境、不同集群的配置，配置修改后能够实时推送到应用端，并且具备规范的权限、流程治理等特性，适用于微服务配置管理场景。
 
 ### 是否开源
-
 开源
 
-### 主要功能
-
+### Apollo 的主要功能
 服务端基于Spring Boot和Spring Cloud开发，打包后可以直接运行，不需要额外安装Tomcat等应用容器。
 
 Java客户端不依赖任何框架，能够运行于所有Java运行时环境，同时对Spring/Spring Boot环境也有较好的支持。
 
 .Net客户端不依赖任何框架，能够运行于所有.Net运行时环境。
 
-### 支持的注册中心
-
+### Apollo 支持的注册中心
 * Eureka
 
 ### 兼容性
-
 目前Apollo团队由于人力所限，只提供了Java和.Net的客户端，对于其它语言的应用，可以通过本文的介绍来直接通过Http接口获取配置。
 
 另外，如果有团队/个人有兴趣的话，也欢迎帮助我们来实现其它语言的客户端，具体细节可以联系@nobodyiam和@lepdou。
@@ -48,7 +44,6 @@ Java客户端不依赖任何框架，能够运行于所有Java运行时环境，
 注：目前已有热心用户贡献了Go、Python、NodeJS、PHP、C++的客户端，更多信息可以参考Go、Python、NodeJS、PHP等客户端使用指南
 
 ### 优缺点/特点
-
 * 统一管理不同环境、不同集群的配置
     * Apollo提供了一个统一界面集中式管理不同环境（environment）、不同集群（cluster）、不同命名空间（namespace）的配置。
     * 同一份代码部署在不同的集群，可以有不同的配置，比如zk的地址等
@@ -81,22 +76,15 @@ Java客户端不依赖任何框架，能够运行于所有Java运行时环境，
     * Apollo还提供了打包脚本，一键就可以生成所有需要的安装包，并且支持自定义运行时参数
 
 ### 其他替代组件
-
 * Spring Cloud/Spring Cloud Config
     ```text
     GitHub地址： https://github.com/spring-cloud/spring-cloud-config
     2014年9月开源，Spring Cloud 生态组件，为分布式系统中的外部配置提供服务器和客户端支持，可以和Spring Cloud体系无缝整合。
     ```
 
-* 阿里 Nacos
-    ```text
-    GitHub地址：https://github.com/alibaba/nacos
-    一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。
-    2018年6月，阿里开源的配置中心，也可以做DNS和RPC的服务发现。
-    ```
-
+* 阿里 [Nacos](Nacos/Nacos.md)
+ 
 ### 配置中心对比
-
 * 功能对比（Nacos具有Apollo大部分功能）
 
 <table>
@@ -151,3 +139,7 @@ Java客户端不依赖任何框架，能够运行于所有Java运行时环境，
 </table>
 
 总结： Nacos的部署结构比较简单，运维成本较低。Apollo部署组件较多，运维成本比Nacos高。Spring Cloud Config生产高可用的成本最高。
+
+### 参考
+* `官网`
+* `网络`

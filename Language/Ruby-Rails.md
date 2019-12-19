@@ -2,4 +2,4 @@
 
 网站： https://guides.rubyonrails.org/v3.2.8/index.html
 
-GitHub： https://github.com/rails/rails
+源码： https://github.com/rails/rails

@@ -2,7 +2,7 @@
 
 网站： http://hive.apache.org
 
-GitHub： https://github.com/apache/hive
+源码： https://github.com/apache/hive
 
 > 数据仓库软件。
 >

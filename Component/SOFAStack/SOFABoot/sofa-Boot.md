@@ -1,6 +1,6 @@
 ## SOFABoot
 
-GitHub: https://github.com/sofastack/sofa-boot
+源码: https://github.com/sofastack/sofa-boot
 
 网站： https://tech.antfin.com/docs/2/48619
 
@@ -12,32 +12,25 @@ GitHub: https://github.com/sofastack/sofa-boot
 
 ### 目录
 * [背景（Spring Boot的局限性）](#背景)
-* [是什么？](#是什么？)
+* [SOFABoot 是什么？](#SOFABoot-是什么？)
 * [是否开源](#是否开源)
-* [主要功能](#功能特性)
+* [SOFABoot 的主要功能](#SOFABoot-的功能特性)
 * [兼容性](#兼容性)
-* [优缺点](#优缺点)
+* [SOFABoot 的优缺点](#SOFABoot-的优缺点)
 * [其他替代组件](#其他替代组件)
 * [基础术语](#基础术语)
 * [安装和使用](sofa-Boot-install.md)
 * [快速开始](sofa-Boot-quick-start.md)
 
 ### 背景
-
 Spring Boot 是一个非常优秀的开源框架，可以非常方便地就构建出一个基于 Spring 的应用程序，但是在使用过程中，还是会遇到一些问题：
-
 * Spring Boot 提供了一个基础的健康检查的能力，中间件和应用都可以扩展来实现自己的健康检查逻辑。但是 Spring Boot 的健康检查只有 Liveness Check 的能力，缺少 Readiness Check 的能力，这样会有比较致命的问题。当一个微服务应用启动的时候，必须要先保证启动后应用是健康的，才可以将上游的流量放进来（来自于 RPC，网关，定时任务等等流量），否则就可能会导致一定时间内大量的错误发生。
-
 * Spring Boot 虽然通过依赖管理（Dependency Management）的方式最大程度的保证了 Spring Boot 管理的 JAR 包之间的兼容性，但是不可避免的，当引入一些其他的 JAR 包的时候，还是可能会遇到冲突，而且很多时候这种冲突解决起来并不是这么容易，一个例子是当冲突的包是序列化相关的类库时，比如说 Hessian，如果应用中的一个组件需要使用 Hessian 3，而另一个则必须要使用 Hessian 4，由于 Hessian 3 和 Hessian 4 之间的不兼容性，并且序列化还涉及到微服务中的上下游服务，要把 Hessian 统一到一个版本绝非易事。
-
 * 在超大规模微服务运维的场景下，运维能力的平台化是一定要解决的问题，而监控又是其中非常主要的一个点，针对于日志监控这种情况，Spring Boot 并没有提供任何解决方案。大部分的开源组件，具体要打印哪些日志，打印到什么路径，什么文件下面，都是由应用的使用者来决定，这样会导致每一个应用的日志配置都各式各样，每一个应用都需要去监控系统中配置自己应用的日志监控，导致关键的监控的实施成本特别高。
-
 * 在企业级应用场景，模块化开发是解决多团队沟通成本的有效解决方案，每个业务团队专注于开发自己的应用模块，每个模块自包含，便于开发及自测，减少团队间的沟通成本。但是 Spring Boot 默认不支持模块化开发，所有 Bean 共用一个 Spring 上下文，在多团队开发时，如果不同团队定义了相同 BeanId，运行时将出现 BeanId 冲突错误。
-
 为了解决以上的问题，又因为 SOFA 中间件中的各个组件本身就需要集成 Spring Boot，所以蚂蚁金服基于 Spring Boot 开发并开源了 SOFABoot，来解决以上的问题，也方便使用者在 Spring Boot 中方便地去使用 SOFA 中间件。
 
-### 是什么？
-
+### SOFABoot 是什么？
 SOFABoot 是基于 Spring Boot 的开发框架，用于快速、敏捷地开发 Spring 应用程序，特别适合构建微服务系统。SOFABoot 在 Spring Boot 的基础上提供了诸如 Readiness Check、类隔离、日志空间隔离等能力，以解决大规模团队开发云原生微服务系统中会遇到的问题。同时 SOFABoot 也提供了蚂蚁金服金融科技中间件的轻量级集成方案，仅需少量配置即可在 SOFABoot 中使用金融科技中间件。金融科技中间件也可通过相应的 starter 模块单独配置集成到 Spring Boot 工程中。普通 Spring 工程通过 Embedded-SOFA 模式可以方便地集成并使用金融科技中间件。
 
 SOFABoot 基于 Spring Boot 1.4.2 版本开发，使用标准 Spring 接口实现。可将 SOFABoot 理解为 Spring 的一个扩展，构建在 Spring Boot 基础之上提供金融科技中间件解决方案，每一个中间件均是一个可插拔的组件，添加和移除非常方便，同时，利用“约定优先配置”（convention over configuration）的理念完成自动配置，开发者能够更加专注于业务逻辑。
@@ -49,11 +42,9 @@ SOFABoot 支持创建 Web 和 Core 两种类型的工程。当使用 SOFABoot �
 SOFABoot 作为开发框架，在整个微服务架构中起着至关重要的作用，其本身也在不断优化升级。
 
 ### 是否开源
-
 开源
 
-### 功能特性
-
+### SOFABoot 的功能特性
 SOFABoot 框架不仅能实现中间件的集成管理、自动配置以及调用链路监控及治理，支持 Embedded-SOFA 模式、多类型的部署模式，还具有应用日志和中间件日志的隔离能力，并拥有一套完整的技术栈。
 
 * 集成管理和自动配置
@@ -81,13 +72,11 @@ SOFABoot 框架不仅能实现中间件的集成管理、自动配置以及调�
     拥有一套完整的技术栈，能自动解决后续的依赖下载、应用部署、健康检查、运维监控等问题。开发人员集成框架后，只需专心编写业务代码。
 
 ### 兼容性
-
 Spring Boot基础上开发，兼容Spring
 
-### 优缺点
+### SOFABoot 的优缺点
 
 ### 其他替代组件
-
 Spring Boot框架
 
 ### 基础术语

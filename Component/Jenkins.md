@@ -2,8 +2,7 @@
 
 网站： https://jenkins.io/zh/
 
-GitHub： https://github.com/jenkinsci/jenkins
-
+源码： https://github.com/jenkinsci/jenkins
 
 > Jenkins是开源CI&CD软件领导者， 提供超过1000个插件来支持构建、部署、自动化， 满足任何项目的需要。
 >
@@ -59,4 +58,4 @@ Jenkins 支持各种运行方式，可通过系统包、Docker 或者通过一�
 可以运行在Windows、Mac OS X 和其他类 Unix 操作系统。
 
 ### 参考
-* 官网
+* `官网`

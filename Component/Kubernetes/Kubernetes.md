@@ -1,20 +1,13 @@
 ## Kubernetes
+**_学习_**
 
 网站： https://kubernetes.io/
 
-GitHub： https://github.com/kubernetes/kubernetes
+源码： https://github.com/kubernetes/kubernetes
 
 中文社区： https://www.kubernetes.org.cn/
 
 > 生产级别的容器编排系统 - 自动化的容器部署、扩展和管理
-> 
-> 
-> 参考：  官网，
-> GitHub，
-> 中文社区，
-> https://www.jianshu.com/p/94e551534035，
-> https://blog.csdn.net/wzq756984/article/details/88977439， 
-> 哔哩哔哩-尚硅谷 Kubernetes
 
 ### 目录
 * [Kubernetes是什么？](#Kubernetes是什么？)
@@ -42,7 +35,6 @@ GitHub： https://github.com/kubernetes/kubernetes
     * [运维](运维.md)
 
 ### Kubernetes是什么？
-
 > Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
 
 Kubernetes (K8s) 是一个开源系统，用于容器化应用的自动部署、扩缩和管理。
@@ -54,7 +46,6 @@ Kubernetes 将构成应用的容器按逻辑单位进行分组以便于管理和
 云原生应用(Cloud Native Application)技术
 
 #### 为什么简称K8s
-
 Kubernetes 这个单词来自于希腊语，含义是舵手或领航员。K8S是它的缩写，用“8”字替代了“ubernete”这8个字符。
 
 ### Kubernetes的发展经历
@@ -94,7 +85,6 @@ Kubernetes 特点
 ### 各个组件的作用
 
 ### 是否开源
-
 Kubernetes (K8s) 是一个开源系统
 
 民主化架构，从API到容器运行的每一层，Kubernetes项目都为开发者暴露出可以拓展的插件机制，鼓励用户通过代码的方式接入到Kubernetes项目的每个阶段。
@@ -105,7 +95,6 @@ Kubernetes (K8s) 是一个开源系统
 * Rook: 通过Kubernetes的扩展接口，把Ceph这样的重量级产品封装成了简单易用的容器存储插件。
 
 ### 主要功能
-
 * 快速部署应用
 * 快速扩展应用
 * 无缝对接新的应用功能
@@ -122,11 +111,9 @@ Kubernetes 基础模块：
 6. 应用更新
 
 ### 兼容性
-
 容器与语言无关
 
 ### Kubernetes的优点
-
 K8s是一个开源的容器集群管理系统，可以实现容器集群的自动化部署、自动扩缩容、维护等功能。
 1. 易学： 轻量级，简单，容易理解
 2. 便携： 支持公有云，私有云，混合云，以及多种云平台
@@ -134,7 +121,6 @@ K8s是一个开源的容器集群管理系统，可以实现容器集群的自�
 4. 自修复： 自动重调度，自动重启，自动复制
 
 ### 容器化的优点
-
 **传统的应用部署方式**是通过插件或脚本来安装应用。这样做的缺点是应用的运行、配置、管理、所有生存周期将**与当前操作系统绑定**，这样做并不利于应用的升级更新/回滚等操作，当然也可以通过创建虚机的方式来实现某些功能，但是虚拟机非常重，并不利于可移植性。
 
 **新的方式**是通过部署容器方式实现，每个容器之间**互相隔离**，每个容器有自己的文件系统 ，容器之间进程不会相互影响，能区分计算资源。相对于虚拟机，容器能**快速部署**，由于容器与底层设施、机器文件系统**解耦**的，所以它能在不同云、不同版本操作系统间进行迁移。
@@ -151,4 +137,12 @@ K8s是一个开源的容器集群管理系统，可以实现容器集群的自�
 * Loosely coupled，分布式，弹性，微服务化：应用程序分为更小的、独立的部件，可以动态部署和管理。
 * 资源隔离
 * 资源利用：更高效
+
+### 参考
+* `官网`
+* `GitHub`
+* `中文社区`
+* `https://www.jianshu.com/p/94e551534035`
+* `https://blog.csdn.net/wzq756984/article/details/88977439`
+* `哔哩哔哩-尚硅谷 Kubernetes`
 

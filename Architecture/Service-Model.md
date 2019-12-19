@@ -7,7 +7,6 @@
 * [三种服务模型实例](#三种服务模型实例)
 
 ### 三种服务模型
-
 云服务可以分为三大类：IaaS，PaaS，SaaS。
 
 * IaaS：基础设施服务，Infrastructure-as-a-service
@@ -21,7 +20,6 @@
 ![云服务分类-软件开发](images/software.jpg)
 
 ### 三种服务模型实例
-
 * IaaS 基础设施服务
     
     国内： 代表厂商阿里云
@@ -37,7 +35,5 @@
 * SaaS 软件即服务
 
     Office365
-
-
 
 

@@ -3,18 +3,15 @@
 > 服务网格
 > 
 > 解决微服务之间通信愈发复杂的问题。
->
-> 参考： 官网和 https://blog.51cto.com/12462495/2437636，
-> https://www.cnblogs.com/bocloud/p/10895296.html
 
 ### 目录
-* [是什么？](#Service Mesh的定义)
-* [作用和功能](#Service Mesh的作用和功能)
-* [项目](#Service Mesh领域的项目)
+* [Service Mesh 是什么？](#Service Mesh的定义)
+* [Service Mesh 的作用和功能](#Service Mesh的作用和功能)
+* [Service Mesh领域的项目/案例](#Service Mesh领域的项目/案例)
 * [其他-Spring Cloud向Service Mesh转变](https://www.cnblogs.com/bocloud/p/10895296.html)
+* [参考](#参考)
 
 ### Service Mesh的定义
-
 关于Service mesh的定义，最为广泛接受的观点是：它是一种控制应用程序不同部分彼此共享数据的方式。
 
 服务网格是一个基础设施层，功能在于处理服务间通信，职责是负责实现请求的可靠传递。在实践中，服务网格通常实现为轻量级网络代理，通常与应用程序部署在一起，但是对应用程序透明。
@@ -26,14 +23,12 @@
 术语服务网格用来描述组成这些应用程序的微服务网络以及它们之间的交互。随着服务网格的规模和复杂性不断的增长，它将会变得越来越难以理解和管理。它的需求可以包括服务发现、负载均衡、故障恢复、度量和监控。一个服务网格通常还有更复杂的操作需求，比如 A/B 测试、金丝雀发布、速率限制、访问控制和端到端认证。
 
 ### Service Mesh的作用和功能
-
 Service mesh可以在短时间内自动处理发现和连接服务，而无需开发人员以及各个微服务自行匹配。
 
 功能： 
 1. 负载均衡
 
-### Service Mesh领域的项目
-
+### Service Mesh领域的项目/案例
 * Linkerd ： Service mesh领域的第一个项目是Linkerd，它一开始是Twitter内部项目的一个分支。
 ```text
 https://github.com/linkerd/linkerd
@@ -62,3 +57,8 @@ http://skywalking.apache.org/zh/
 
 https://github.com/apache/skywalking
 ```
+
+### 参考
+* `官网`
+* `https://blog.51cto.com/12462495/2437636`
+* `https://www.cnblogs.com/bocloud/p/10895296.html`

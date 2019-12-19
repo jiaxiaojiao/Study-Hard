@@ -1,8 +1,9 @@
 ## Istio
+**_学习_**
 
 官网： https://istio.io/
 
-GitHub： https://github.com/istio/istio
+源码： https://github.com/istio/istio
 
 中文文档： https://preliminary.istio.io/zh/docs/concepts/what-is-istio/
 

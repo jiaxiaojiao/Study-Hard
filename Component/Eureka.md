@@ -1,21 +1,19 @@
 ## Eureka
 
-GitHub： https://github.com/Netflix/eureka
+源码： https://github.com/Netflix/eureka
 
 > 服务注册与发现的组件
->
-> 参考： https://github.com/Netflix/eureka/wiki，https://www.cnblogs.com/knowledgesea/p/11208000.html
 
 ### 目录
-* [是什么？](#是什么？)
+* [Eureka 是什么？](#Eureka-是什么？)
 * [是否开源](#是否开源)
-* [主要功能](#主要功能)
-* [兼容性](#兼容性)
-* [优缺点](#优缺点)
+* [Eureka 的主要功能](#Eureka-的主要功能)
+* [Eureka 的兼容性](#Eureka-的兼容性)
+* [Eureka 的优缺点](#Eureka-的优缺点)
 * [其他替代组件](#其他替代组件)
+* [参考](#参考)
 
-### 是什么？
-
+### Eureka 是什么？
 Eureka 是 Netflix 开发的，一个基于 REST 服务的，服务注册与发现的组件
 
 它主要包括两个组件：Eureka Server 和 Eureka Client
@@ -52,22 +50,21 @@ The existing open source work on eureka 2.0 is discontinued.
 
 Eureka 1.x is a core part of Netflix's service discovery system and is still an active project.
 
-### 主要功能
-
+### Eureka 的主要功能
 服务注册与发现
 
-### 兼容性
-
+### Eureka 的兼容性
 Spring Cloud 将Eureka集成在子项目Spring-Cloud-Netflix中，以实现Spring Cloud的服务发现功能。
 
-### 优缺点
-
+### Eureka 的优缺点
 对比ZooKeeper
 
 * Eureka 优点： 基于AP高可用，主从复制 都是主节点，三级（多级）缓存机制，基于内存速度快，不会出现半数挂掉的不可用 只有一个节点也可用，天然支持Spring Boot。
 * Eureka 缺点： 基于内存缺陷注册点有局限（有上限）， 缓存刷新需要时间 同步会有延迟。页面管控不全或者没有。服务升降级只提供了接口。
 
 ### 其他替代组件
-
 ZooKeeper
 
+### 参考
+* `https://github.com/Netflix/eureka/wiki`
+* `https://www.cnblogs.com/knowledgesea/p/11208000.html`
