@@ -46,8 +46,8 @@
 
 ### 分布式事务框架
 
-* [TX-LCN分布式事务框架](../../../Component/TX-LCN.md)
-* [Seata阿里巴巴开源分布式事务解决方案](../../../Component/SOFAStack/Seata.md)
+* [TX-LCN分布式事务框架](../Component/TX-LCN.md)
+* [Seata阿里巴巴开源分布式事务解决方案](../Component/SOFAStack/Seata.md)
 
 ### 分布式事务解决方案优缺点对比
 
