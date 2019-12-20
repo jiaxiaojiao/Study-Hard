@@ -24,8 +24,8 @@
 
 ### 有哪些监控组件？
 * [Zabbix](../Component/Zabbix.md) 企业级开源监控解决方案。
-* [Prometheus](../Component/Prometheus.md)
-* [Nagios](../Component/Nagios.md)
+* [Prometheus](../Component/Prometheus.md) 监测系统和时间序列数据库
+* [Nagios](../Component/Nagios.md) 网络监视工具
 * [Open-Falcon](../Component/Open-Falcon.md) 运维监控系统
 
 ### 监控组件对比
