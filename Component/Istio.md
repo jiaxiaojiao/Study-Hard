@@ -8,18 +8,13 @@
 中文文档： https://preliminary.istio.io/zh/docs/concepts/what-is-istio/
 
 > Istio是一个十分流行的service mesh项目，它起源于Lyft。 
->
->
-> 参考： 官网，GitHub，中文文档，Bilibili-向上的信念-Istio教程， 
-> https://developers.redhat.com/blog/2018/03/20/istio-circuit-breaker-pool-ejection/，
-> https://docs.flagger.app/usage/ab-testing，
-> https://www.oreilly.com/library/view/chaos-engineering/9781491988459/
 
 ### 目录
 * [功能特性](#Istio的功能特性)
 * [应用扩展](#Istio的应用)
 * [架构](#Istio的架构)
 * [Istio与Spring Cloud相应组件对比](#Istio与Spring-Cloud组件对比)
+* [参考](#参考)
 
 ### Istio的功能特性
 
@@ -125,3 +120,13 @@ Istio 服务治理：
   <tr><td>开源协议</td><td>Apache License 2.0</td><td>Apache License 2.0</td></tr>
 </table>
 
+### 参考
+* `官网`
+* `GitHub`
+* `中文文档`
+* `Bilibili-向上的信念-Istio教程` 
+* `https://developers.redhat.com/blog/2018/03/20/istio-circuit-breaker-pool-ejection/`
+* `https://docs.flagger.app/usage/ab-testing`
+* `https://www.oreilly.com/library/view/chaos-engineering/9781491988459/`
+* `https://blog.csdn.net/weixin_44175121/article/details/88045370`
+* `https://blog.csdn.net/qq_33873431/article/details/89524554`

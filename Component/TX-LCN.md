@@ -9,6 +9,8 @@
 
 Demo： https://github.com/codingapi/springcloud-lcn-demo
 
+其他： https://github.com/1991wangliang/tx-lcn
+
 > LCN并不生产事务，LCN只是本地事务的协调工
 >
 
