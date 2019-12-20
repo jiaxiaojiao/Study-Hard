@@ -5,6 +5,8 @@
 
 源码： https://github.com/alibaba/nacos
 
+注册中心，服务治理能力
+
 ### 目录
 * [Nacos 是什么？](#Nacos-是什么？)
 * [Nacos 的愿景](#Nacos-的愿景)
