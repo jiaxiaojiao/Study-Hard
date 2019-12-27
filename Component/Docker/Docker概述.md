@@ -25,9 +25,9 @@ GitHub: https://github.com/docker
 * 核心概念
     * [镜像Image](镜像Image.md)
     * [容器Container](Docker容器.md)
-    * 仓库Repository
+    * [仓库Repository](Docker-Repository.md)
 * Docker的使用
-    * [在CentOS环境安装Docker](Docker安装-CentOS.md)
+    * [在CentOS环境安装Docker](CentOS安装Docker.md)
     * [运行HelloWorld](实例-在Docker中运行helloworld.md)
     * [Docker的安全介绍](安全介绍.md)
     * [Docker的常用命令](Docker-Commands.md)

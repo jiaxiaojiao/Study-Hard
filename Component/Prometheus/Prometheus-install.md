@@ -18,6 +18,8 @@
 * [参考](#参考)
 ### 1. 二进制包安装
 
+安装位置： 本地虚拟机 VM-4 192.168.229.129
+
 ##### 下载最新安装包
 下载地址： `https://prometheus.io/download/`
 * Prometheus 监控系统和时序数据库。主要是负责存储、抓取、聚合、查询方面。
@@ -192,6 +194,8 @@ SELINUXTYPE=targeted
 
 
 ### 2. Docker 安装部署Prometheus
+本机虚拟机 VM-1 192.168.229.128
+
 > 前提条件： 已经安装Docker
 
 ```text

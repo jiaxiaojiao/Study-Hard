@@ -5,11 +5,15 @@
 
 文档： https://prometheus.io/docs/introduction/overview/
 
+文档： https://prometheus.io/docs/prometheus/latest/getting_started/
+
 源码： https://github.com/prometheus/prometheus
 
 > 普罗米修斯
 >
-> (入门门槛有点高)
+> 网上说入门门槛有点高，不知道...
+>
+> 不会不懂的时候多看看日志，看看文档。
 
 ### 目录
 * [Prometheus 是什么？](#Prometheus-是什么？)
@@ -21,6 +25,7 @@
 * [有哪些使用场景/案例？](#有哪些使用场景/案例？)
 * 使用
     * [安装Prometheus Server](Prometheus-install.md)
+    * [搭建监控系统Prometheus+Alertmanager+Grafana](Prometheus-install2.md)
 * [参考](#参考)
 
 ### Prometheus 是什么？
@@ -167,11 +172,6 @@ Prometheus 里的度量指标有以下几种类型。
 	* `scrape_duration_seconds{job="[job-name]", instance="[instance-id]"}` ：采样值为本次抓取消耗时间
 	* `scrape_samples_post_metric_relabeling{job="<job-name>", instance="<instance-id>"}` ：采样值为重新打标签后的采样值个数
 	* `scrape_samples_scraped{job="<job-name>", instance="<instance-id>"}` ：采样值为本次抓取到的采样值个数
-
-
-
-
-
 
 
 ### 有哪些使用场景/案例？

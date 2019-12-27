@@ -1,8 +1,8 @@
 ## Spring Boot 启动 - 内部Tomcat和外部Tomcat
 
 ### 目录
-* Spring Boot使用内置Tomcat启动
-* Spring Boot使用外部Tomcat启动
+* [Spring Boot使用内置Tomcat启动](#使用内置Tomcat启动)
+* [Spring Boot使用外部Tomcat启动](#使用外部Tomcat启动)
 
 ### 使用内置Tomcat启动
 

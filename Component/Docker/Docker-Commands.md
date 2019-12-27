@@ -4,9 +4,16 @@
 * [Docker容器-创建](#Docker容器-创建)
 * [Docker容器-启动](#Docker容器-启动)
 * [Docker容器-停止](#Docker容器-停止)
+* [Docker容器-查看](#Docker容器-查看)
+* [Docker容器-查看运行的](#Docker容器-查看运行的)
+* [Docker容器-查看日志](#Docker容器-查看日志)
+* [Docker容器-删除](#Docker容器-删除)
+* [Docker镜像-删除](#Docker镜像-删除)
 * [查看容器IP地址：docker inspect 容器名称或 id](#docker-inspect)
+* [参考](#参考)
 
 ### Docker容器 创建 
+
 ### Docker容器 启动 
 ` docker run`
 
@@ -17,6 +24,51 @@
 * 查看终止状态的容器 `docker ps -a`
 * 启动终止状态的容器 `docker start $CONTAINER_ID`
 * 重启容器 `docker restart $CONTAINER_ID`
+
+### Docker容器 查看
+`docker ps -n 5#查看容器`
+
+### Docker容器 查看运行的
+`docker ps #查看运行容器`
+
+### Docker容器 查看日志
+查看容器日志 `docker logs `
+
+命令格式： 
+```text
+$ docker logs [OPTIONS] CONTAINER
+  Options:
+        --details        显示更多的信息
+    -f, --follow         跟踪实时日志
+        --since string   显示自某个timestamp之后的日志，或相对时间，如42m（即42分钟）
+        --tail string    从日志末尾显示多少行日志， 默认是all
+    -t, --timestamps     显示时间戳
+        --until string   显示自某个timestamp之前的日志，或相对时间，如42m（即42分钟）
+``` 
+
+实例：
+* 查看指定时间后的日志，只显示最后100行
+```text
+$ docker logs -f -t --since="2018-02-08" --tail=100 CONTAINER_ID
+```
+* 查看最近30分钟的日志
+```text
+$ docker logs --since 30m CONTAINER_ID
+```
+* 查看某时间之后的日志
+```text
+$ docker logs -t --since="2018-02-08T13:23:37" CONTAINER_ID
+```
+* 查看某时间段日志
+```text
+$ docker logs -t --since="2018-02-08T13:23:37" --until "2018-02-09T12:23:37" CONTAINER_ID
+```
+
+### Docker容器 删除
+`docker rm #删除容器`
+
+### Docker镜像 删除
+`docker rmi #删除镜像`
 
 ### docker-inspect
 docker查看容器IP地址：
@@ -245,3 +297,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ]
 
 ```
+
+### 参考
+* `https://www.jianshu.com/p/1eb1d1d3f25e`
+* `https://segmentfault.com/a/1190000010086763`
