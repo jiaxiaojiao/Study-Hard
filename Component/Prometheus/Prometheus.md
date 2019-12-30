@@ -26,6 +26,8 @@
 * 使用
     * [安装Prometheus Server](Prometheus-install.md)
     * [搭建监控系统Prometheus+Alertmanager+Grafana](Prometheus-install2.md)
+* 问题排查
+    * [Prometheus数据不显示](Prometheus-error.md)
 * [参考](#参考)
 
 ### Prometheus 是什么？
