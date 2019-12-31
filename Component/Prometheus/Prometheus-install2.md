@@ -6,7 +6,7 @@
 > 1. 创建Demo项目
 > 2. 集成监控系统（Prometheus + Alertmanager + Grafana）
 > 3. Docker容器镜像启动监控系统（Prometheus + Alertmanager + Grafana）
-> 4. Kubernetes管理容器（Prometheus + Alertmanager + Grafana）
+> 4. Kubernetes管理容器（Prometheus + Alertmanager + Grafana）  这不一步还没有做到。
 
 ### 目录
 * [Demo项目](#Demo项目)

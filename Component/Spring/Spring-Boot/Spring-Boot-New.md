@@ -17,27 +17,55 @@
 * 初始化
 
 ### 多模块项目创建
-* 创建父节点项目，用于管理子节点项目和jar 包版本。 根据[使用IDEA创建Spring Boot项目](#使用IDEA创建Spring-Boot项目) 创建就可以，不用添加依赖
-* 清除`src` 文件夹
-* 修改 `pom` 文件，添加`packaging pom` , `dependencyManagement`
-* 创建子节点项目， `New –> Module -> Maven`   `user-interface、user-service、user-web`
-* 修改子节点 `pom` 文件子节点间，相互依赖。  `user-web` 添加依赖web启动器和 `user-service`, `user-service` 添加依赖 `user-interface`。
-* `user-web` 添加配置文件和启动类。
+> 父工程，多个子模块。
+
+#### 构建思路
+先创建一个 Spring Initializr工程父工程， 然后在父工程创建普通的Spring Initializr工程作为子模块 Module
+
+#### 构建步骤
+1. 创建父节点，一个`Spring Initializr`工程。（例：`usercenter`）
+2. 删除父节点工程内（除`.idea` `pom.xml` `*.iml` 外）文件和文件夹。
+3. 创建子节点，一个`Spring Initializr`工程。（例：`user-entity` 实体类 依赖了`lombok`； `user-dao` 与数据库交互 依赖了`MyBatis`和`MySQL`；`user-interface` 向外暴露接口 没有添加默认依赖； `user-service` 业务逻辑 没有添加默认依赖；`user-web` 页面交互 启动类，依赖了`spring web`）
+4. 修改父节点工程 `pom.xml`。 打包方式 `<packaging>pom</packaging>`， 包含的子模块Module
+    ```text
+    <modules>
+        <module>user-entity</module>
+        <module>user-dao</module>
+        <module>user-interface</module>
+        <module>user-service</module>
+        <module>user-web</module>
+    </modules>
+    ```
+5. 修改子节点工程 `pom.xml`。父节点工程。
+    ```text
+    <parent>
+        <groupId>com.jxj</groupId>
+        <artifactId>usercenter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    ```
+6. 修改子节点项目。删除（除user-web）启动类和配置文件，因为整个只能保留一个启动类。 （例： 删除`XXApplication`，`application.properties/yml`）
+7. 修改子节点项目 `pom.xml`， 添加模块间的依赖。
+8. 修改子节点项目 `pom.xml`， 删除（除`user-web`）测试依赖，`test`文件夹。 删不删都行~
+
 ```text
 两个项目
-demo1:
 usercenter
-	user-interface
-	user-service （user-service依赖user-interface）
-	user-web (user-web依赖user-service)
+	user-entity    实体类（谁都不依赖）
+	user-dao      用于持久化数据跟数据库交互(依赖entity)
+	user-interface 向外暴露接口类
+	user-service   处理业务逻辑 （依赖dao,entity,interface实现接口）
+	user-web 	页面交互接收、传递数据，唯一有启动类的模块（依赖service，entity）
 
-demo2:
 ordercenter
+	order-entity
+	order-dao
 	order-interface
-	order-service （order-service依赖order-interface）
-	order-web （order-web依赖order-service）
+	order-service
+	order-web
 
-groupId: com.jxj.demo
+groupId: com.jxj.user
 artifactId: usercenter
 artifactId: ordercenter
 ```
