@@ -11,7 +11,7 @@
 
 ### 目录
 * [1. 2个Demo应用](#2个Demo应用)
-* [2. 注册中心Nacos](Nacos-Install.md)
+* [2. 注册中心Nacos](Nacos-Install-single.md)
 * [3. 监控平台Prometheus+Alertmanager+Grafana](../Prometheus/Prometheus-install2.md)
 * [3.2 监控平台Prometheus+Alertmanager+Grafana2](../Docker/Docker-demo20191230.md)
 * [5. 配置管理Apollo](../Apollo/Apollo-install.md) 我觉得Apollo和Nacos都不错，可以先安装上，用哪个后续再选。

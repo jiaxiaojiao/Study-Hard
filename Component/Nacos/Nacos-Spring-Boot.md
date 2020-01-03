@@ -9,7 +9,7 @@
 * [参考](#参考)
 
 ### 前提条件
-* 已经下载并启动Nacos Server。 这里用的是[Docker安装单机Nacos](Nacos-Install.md#单机模式部署Nacos)
+* 已经下载并启动Nacos Server。 这里用的是[Docker安装单机Nacos](Nacos-Install-single.md#单机模式部署Nacos)
 
 ### Spring Boot 使用 Nacos
 

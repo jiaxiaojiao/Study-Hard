@@ -84,7 +84,7 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 # docker pull prom/prometheus
 
 # 生成容器，启动。 日志中时序时间使用的是UTC世界标准时间，本机使用的是CST时间China Standard Time UT+8:00 中国标准时间。
-# docker run -p 9090:9090 prom/prometheus
+# docker run -p 9090:9090 prom/prometheus 
 # 不用解决，集成Grafana后看一下展示时间有没有问题。
 ```
 
@@ -174,4 +174,3 @@ alerting:
 * 配置管理： Apollo
 * 限流，降级，熔断：sentinel
 * 分布式事务解决方案。 seata。 （最后。。。）
-    

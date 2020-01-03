@@ -1,4 +1,4 @@
-## Nacos 安装部署
+## Nacos 安装部署 - 单机模式
 
 > Nacos支持三种部署模式
 > * 单机模式 - 用于测试和单机试用。
@@ -6,32 +6,36 @@
 > * 多集群模式 - 用于多数据中心场景。
 
 ### 目录
-* [单机模式部署Nacos](#单机模式部署Nacos)
-* [常见的配置属性](#常见的配置属性)
+* [环境要求](#环境要求)
+* [安装包](#安装包)
+* [数据库](#数据库)
+* [安装步骤](#安装步骤)
 * [参考](#参考)
 
-### 单机模式部署Nacos
-* 环境要求
-    * 64位操作系统。 推荐选用 Linux/Unix/Mac
-    * JDK 1.8+
-    * Maven 3.2.x+
-* 安装包
-    * 可以通过源码或者发行包两种方式获取Nacos
-    * Docker运行Nacos
-* 数据库。（目前没有配置数据库）
-    * MySQL 5.6.5+
-    * 初始化MySQL数据库 nacos-mysql.sql
-    * 修改数据源配置。 conf/application.properties
-    ```text
-    # 添加mysql数据源的url、用户名和密码
-    spring.datasource.platform=mysql
-    
-    db.num=1
-    db.url.0=jdbc:mysql://11.162.196.16:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
-    db.user=nacos_devtest
-    db.password=youdontknow
-    ```
+### 环境要求
+* 64位操作系统。 推荐选用 Linux/Unix/Mac
+* JDK 1.8+
+* Maven 3.2.x+
 
+### 安装包
+* 可以通过源码或者发行包两种方式获取Nacos
+* Docker运行Nacos
+
+### 数据库
+* MySQL 5.6.5+
+* 初始化MySQL数据库 nacos-mysql.sql
+* 修改数据源配置。 conf/application.properties
+```text
+# 添加mysql数据源的url、用户名和密码
+spring.datasource.platform=mysql
+
+db.num=1
+db.url.0=jdbc:mysql://11.162.196.16:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+db.user=nacos_devtest
+db.password=youdontknow
+```
+
+### 安装步骤
 安装位置： 
 > 本机虚拟机 VM-1 192.168.229.128 （root/jxj-jiaxiaojiao） 
 ```text
@@ -104,31 +108,6 @@ curl -X POST "http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=nacos.cfg.dataId&
 curl -X GET "http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=nacos.cfg.dataId&group=test"
 
 ```
-###  常见的配置属性
-<table>
-  <tr><th>name名称</th><th>description描述</th><th>option选项</th></tr>
-  <tr><td>MODE</td><td>cluster模式/standalone模式</td><td>cluster/standalone default cluster</td></tr>
-  <tr><td>NACOS_SERVERS</td><td>nacos cluster地址</td><td>eg. ip1,ip2,ip3</td></tr>
-  <tr><td>PREFER_HOST_MODE</td><td>是否支持hostname</td><td>hostname/ip default ip</td></tr>
-  <tr><td>NACOS_SERVER_PORT</td><td>nacos服务器端口</td><td>default 8848</td></tr>
-  <tr><td>NACOS_SERVER_IP</td><td>多网卡下的自定义nacos服务器IP</td><td></td></tr>
-  <tr><td>SPRING_DATASOURCE_PLATFORM</td><td>standalone 支持 mysql</td><td>mysql / empty default empty</td></tr>
-  <tr><td>MYSQL_MASTER_SERVICE_HOST</td><td>mysql 主节点host</td><td></td></tr>
-  <tr><td>MYSQL_MASTER_SERVICE_PORT</td><td>mysql 主节点端口</td><td>default : 3306</td></tr>
-  <tr><td>MYSQL_MASTER_SERVICE_DB_NAME</td><td>mysql 主节点数据库</td><td></td></tr>
-  <tr><td>MYSQL_MASTER_SERVICE_USER</td><td>数据库用户名</td><td></td></tr>
-  <tr><td>MYSQL_MASTER_SERVICE_PASSWORD</td><td>数据库密码</td><td></td></tr>
-  <tr><td>MYSQL_SLAVE_SERVICE_HOST</td><td>mysql从节点host</td><td></td></tr>
-  <tr><td>MYSQL_SLAVE_SERVICE_PORT</td><td>mysql从节点端口</td><td>default :3306</td></tr>
-  <tr><td>MYSQL_DATABASE_NUM</td><td>数据库数量</td><td>default :2</td></tr>
-  <tr><td>JVM_XMS</td><td>-Xms</td><td>default :2g</td></tr>
-  <tr><td>JVM_XMX</td><td>-Xmx</td><td>default :2g</td></tr>
-  <tr><td>JVM_XMN</td><td>-Xmn</td><td>default :1g</td></tr>
-  <tr><td>JVM_MS</td><td>-XX:MetaspaceSize</td><td>default :128m</td></tr>
-  <tr><td>JVM_MMS</td><td>-XX:MaxMetaspaceSize</td><td>default :320m</td></tr>
-  <tr><td>NACOS_DEBUG</td><td>开启远程调试</td><td>y/n default :n</td></tr>
-  <tr><td>TOMCAT_ACCESSLOG_ENABLED</td><td>server.tomcat.accesslog.enabled</td><td>default :false</td></tr>
-</table>
 
 ### 参考
 * `https://nacos.io/zh-cn/docs/deployment.html`

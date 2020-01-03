@@ -16,7 +16,9 @@
 * [Nacos 概念，引入的基本概念](Nacos-概念.md)
 * [Nacos 与 Apollo对比](../Apollo/Apollo.md#配置中心对比)
 * 安装和使用
-    * [Nacos安装](Nacos-Install.md)
+    * [Nacos部署-单机模式](Nacos-Install-single.md)
+    * [Nacos部署-集群模式](Nacos-Install-cluster.md)
+    * [Nacos部署-Docker（单机模式和集群模式）](Nacos-Install-Docker.md)
     * [Nacos集成监控](Nacos-Integrated-Install.md)
 * [开源生态相关/与开源组件的集成](#开源生态相关/与开源组件的集成)
 * [参考](#参考)

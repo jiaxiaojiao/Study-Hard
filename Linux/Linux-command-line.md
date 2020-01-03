@@ -13,9 +13,8 @@
 3. `cat /etc/issue`
 
 ### 安装命令
-* 安装sodo
-
-`# yum install sudo`
+* 安装sodo `yum install sudo`
+* 安装wget `yum -y install wget`
 
 *yum 安装软件必须在联网的情况下才能操作。
 
