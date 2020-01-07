@@ -2,6 +2,8 @@
 
 网站： `https://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign`
 
+源码： `https://github.com/OpenFeign/feign`
+
 ### 目录
 * [什么是 Feign？](#什么是-Feign？)
 * [Feign的使用](#Feign的使用)
@@ -22,11 +24,45 @@ Spring Cloud Feign具备可插拔的注解支持，支持Feign注解、JAX-RS�
 
 ### Feign的使用
 1. 添加依赖
+```text
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-feign</artifactId>
+    <version>1.4.7.RELEASE</version>
+</dependency>
+# SpringBoot2.X版本后，引入Feign依赖是：
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-openfeign</artifactId>
+</dependency>
+```
 2. 启动类添加 @EnableFeignClients 注解支持
+```text
+@SpringBootApplication
+@EnableFeignClients
+public class XxxApplication {
+    public static void main(String[] args) {
+        ...
+    }
+}
+```
 3. 建立Client接口，并在接口中定义需调用的服务方法
+```text
+@FeignClient(name = "feign-user-provider")
+public interface UserService {
+    /**
+     * 查询用户（通过主键用户ID）
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    UserVO findUser(Long id);
+}
+```
 4. 使用Client接口。
 
 ### 参考
 * `https://blog.csdn.net/chengqiuming/article/details/80713471`
 * `https://blog.csdn.net/antma/article/details/81317707`
 * `https://blog.csdn.net/wo18237095579/article/details/83343915`
+* `https://spring.io/projects/spring-cloud-openfeign`
