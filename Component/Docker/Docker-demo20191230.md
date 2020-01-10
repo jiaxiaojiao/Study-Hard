@@ -165,12 +165,8 @@ alerting:
 ```
 
 ### 接下来做什么呢？
-* Docker容器内通讯，使用的是内部的IP地址，需要通过 `docker inspect 容器名称或 id` 查看容器的IP地址，写到配置文件。
-* 这个应该是可以配置修改的。待定。
-* Grafana面板主要展示： 机器硬件、应用接口、JVM、堆、栈、垃圾回收、线程。 找一下这些面板展示的模板。
-* 以上几个监控组件的启动方式，由命令行启动（也就是上面写的一条一条的启动） 修改为使用 Docker Compose 运行。
-* 2个项目互相调用，通过RPC、Feign方式
-* 注册中心 Nacos
-* 配置管理： Apollo
-* 限流，降级，熔断：sentinel
-* 分布式事务解决方案。 seata。 （最后。。。）
+* ~~Docker容器内通讯，使用的是内部的IP地址，需要通过 `docker inspect 容器名称或 id` 查看容器的IP地址，写到配置文件~~。 （目前是这么做的，使用了docker的内部地址）
+* ~~以上几个监控组件的启动方式，由命令行启动（也就是上面写的一条一条的启动） 修改为使用 Docker Compose 运行~~。（已经修改为Docker Compose启动Tomcat、prometheus、nacos-server、alertmanager、grafana）
+* ~~2个项目互相调用，通过RPC、Feign方式~~。 （地址： https://github.com/jiaxiaojiao/Study-SpringBoot/tree/master/usercenter、https://github.com/jiaxiaojiao/Study-SpringBoot/tree/master/ordercenter）
+* ~~注册中心 Nacos~~。 （Dubbo和Feign，使用Nacos作为注册中心）
+

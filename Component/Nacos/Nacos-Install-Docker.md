@@ -14,6 +14,8 @@
 ```text
 git clone https://github.com/nacos-group/nacos-docker.git
 cd nacos-docker
+
+#地址：【本地虚拟机-VM4】  
 ```
 
 * 单机模式 Derby

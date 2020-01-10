@@ -10,6 +10,8 @@
 * [Spring Cloud 的主要功能](#Spring-Cloud-的主要功能)
 * [Spring Cloud 的兼容性](#Spring-Cloud-的兼容性)
 * [Spring Cloud 的优缺点](#Spring-Cloud-的优缺点)
+* 应用
+    * Eureka中使用Feign
 * [其他替代组件](#其他替代组件)
 * [参考](#参考)
 

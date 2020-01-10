@@ -21,9 +21,10 @@
 安装文档： 
 `https://github.com/ctripcorp/apollo/wiki/Apollo-Quick-Start-Docker%E9%83%A8%E7%BD%B2`
 
-* Docker
-* 下载Docker Quick Start配置文件
-* 启动Apollo配置中心
+准备工作：
+* 安装Docker，验证Docker是否安装 `docker -v` 
+* 下载Docker Quick Start配置文件, `https://github.com/ctripcorp/apollo/tree/master/scripts/docker-quick-start`
+* 启动Apollo配置中心。在docker-quick-start目录下执行`docker-compose up`
 * 使用Apollo配置中心
 
 ### 分布式部署
@@ -39,3 +40,8 @@
 
 ### 参考
 * `https://github.com/ctripcorp/apollo/`
+* `https://github.com/ctripcorp/apollo/wiki/Quick-Start`
+* `https://github.com/ctripcorp/apollo/wiki/Apollo-Quick-Start-Docker%E9%83%A8%E7%BD%B2`
+* `https://github.com/ctripcorp/apollo/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97`
+* `https://github.com/idoop/docker-apollo`
+* `https://hub.docker.com/r/idoop/docker-apollo/`

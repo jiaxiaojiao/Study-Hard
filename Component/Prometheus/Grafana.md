@@ -2,16 +2,20 @@
 
 网站： `https://grafana.com/`
 
+文档： `https://grafana.com/docs/grafana/latest/`
+
 源码： `https://github.com/grafana/grafana`
 
-### 是什么？
+美观、强大的可视化监控指标展示工具
+
 ### 目录
 * [Grafana 是什么？](#Grafana-是什么？)
-* [Grafana 的一些基本概念](#Grafana-的一些基本概念)
+* [Grafana 的一些基本概念和组件](#Grafana-的一些基本概念)
 * [Grafana 有哪些特点？](#Grafana-有哪些特点？)
 * [Grafana与Kibana的相同点和差异](#Grafana与Kibana的相同点和差异)
 * 安装使用
     * [Docker安装Grafana](Prometheus-install2.md#Docker安装Grafana)
+    * [引入DashBoard模板](Grafana-DashBoard.md)
 * [参考](#参考)
 
 ### Grafana 是什么？
@@ -22,6 +26,8 @@ Grafana项目由Torkel Odegaard于2014年启动，在过去的几年里，它已
 Grafana具有可插拔的数据源模型，并附带了对许多最流行的时间序列数据库(如Graphite, Prometheus, Elasticsearch, OpenTSDB, InfluxDB)的丰富支持。它还内置了对云监控供应商的支持，如谷歌Stackdriver、Amazon Cloudwatch、Microsoft Azure和SQL数据库(如MySQL和Postgres)。Grafana是唯一能够将如此多地方的数据合并到一个仪表板中的工具。
 
 Grafana 是一款采用 go 语言编写的开源应用，主要用于大规模指标数据的可视化展现，是网络架构和应用分析中最流行的时序数据展示工具。
+
+每个数据源的查询语言和能力都是不同的。你可以把来自多个数据源的数据组合到一个仪表板，但每一个面板被绑定到一个特定的数据源,它就属于一个特定的组织。
 
 ### Grafana 的一些基本概念
 * 数据源。 Grafana支持许多不同的数据源。每个数据源都有一个特定的查询编辑器,该编辑器定制的特性和功能是公开的特定数据来源。

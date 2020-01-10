@@ -23,9 +23,11 @@
 * [Prometheus 的工作流程](#Prometheus-的工作流程)
 * [Prometheus 常用的概念](#Prometheus-常用的概念)
 * [有哪些使用场景/案例？](#有哪些使用场景/案例？)
-* 使用
+* 安装
     * [安装Prometheus Server](Prometheus-install.md)
     * [搭建监控系统Prometheus+Alertmanager+Grafana](Prometheus-install2.md)
+* 使用/监控什么？
+    * [Prometheus监控服务器](#Prometheus监控服务器)
 * 问题排查
     * [Prometheus数据不显示](Prometheus-error.md)
 * [参考](#参考)
@@ -180,8 +182,14 @@ Prometheus 里的度量指标有以下几种类型。
 * Kubernetes添加Prometheus插件提供K8S集群的监控能力
 * Prometheus监控 + Alertmanager报警 + grafana图形展示 系统和容器信息一起监控
 
+### Prometheus监控服务器
+1. Prometheus 监控服务器，需要安装 node-exporter 。node-exporter 的作用是收集机器的系统数据。 [关于 node-exporter 的详细内容。](Node-exporter.md) 
+2. Prometheus 从 node-exporter 中获取到监控数据。[关于Prometheus配置node-exporter。](Node-exporter.md#修改Prometheus配置)
+
 ### 参考
 * `官网`
 * `http://www.sohu.com/a/342733264_198222`
 * `https://blog.csdn.net/peterwanghao/article/details/89148097`
 * `https://www.jianshu.com/p/77804cf14cff`
+* `https://ryanyang.gitbook.io/prometheus/`
+* `https://www.kancloud.cn/cdh0805010118/prometheus/719340`
