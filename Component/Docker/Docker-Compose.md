@@ -6,7 +6,7 @@
 * [Docker Compose 是什么？](#Docker-Compose-是什么？)
 * [使用Docker Compose](#使用Docker-Compose)
 * [Docker Compose 下载安装](#Docker-Compose-下载安装)
-* [Docker Compose 怎么使用？](#Docker-Compose-怎么使用？)
+* [异常 报错](#异常-报错)
 * [参考](#参考)
 
 ### Docker Compose 是什么？
@@ -52,7 +52,70 @@ $ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 docker-compose version 1.25.0, build 0a186604
 ```
 
-### Docker Compose 怎么使用？
+### 异常 报错
+* 启动单机版报错
+    * 尝试重启虚拟机。 再次启动不报错，但是Nacos服务没有启动。 NO
+    * 再次尝试重新启动后，依然报错。 NO
+    * 把容器都rm，把docker 服务重启后，启动。没有报错，但是
+```text
+Starting grafana ... 
+Starting alertmanager ... 
+Starting node-exporter ... 
+Starting nacos-standalone ... 
+
+ERROR: for grafana  a bytes-like object is required, not 'str'
+
+ERROR: for node-exporter  a bytes-like object is required, not 'str'
+
+ERROR: for nacos-standalone  a bytes-like object is required, not 'str'
+
+ERROR: for alertmanager  a bytes-like object is required, not 'str'
+
+ERROR: for grafana  a bytes-like object is required, not 'str'
+
+ERROR: for node-exporter  a bytes-like object is required, not 'str'
+
+ERROR: for nacos  a bytes-like object is required, not 'str'
+
+ERROR: for alertmanager  a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "site-packages/docker/api/client.py", line 261, in _raise_for_status
+  File "site-packages/requests/models.py", line 940, in raise_for_status
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http+docker://localhost/v1.22/containers/e98818aaedc46654a5ea11908222ca63988661c6856042480a5e0658cc444f3b/start
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "compose/service.py", line 625, in start_container
+  File "compose/container.py", line 241, in start
+  File "site-packages/docker/utils/decorators.py", line 19, in wrapped
+  File "site-packages/docker/api/container.py", line 1095, in start
+  File "site-packages/docker/api/client.py", line 263, in _raise_for_status
+  File "site-packages/docker/errors.py", line 31, in create_api_error_from_http_exception
+docker.errors.APIError: 500 Server Error: Internal Server Error ("b'driver failed programming external connectivity on endpoint alertmanager (663987fd1bdf89c25867221d045879096afb6814160bde84507e5903cdf432b5):  (iptables failed: iptables --wait -t nat -A DOCKER -p tcp -d 192.168.229.129 --dport 9093 -j DNAT --to-destination 172.18.0.3:9093 ! -i br-de9ac5b1d13a: iptables: No chain/target/match by that name.\n (exit status 1))'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bin/docker-compose", line 6, in <module>
+  File "compose/cli/main.py", line 72, in main
+  File "compose/cli/main.py", line 128, in perform_command
+  File "compose/cli/main.py", line 1107, in up
+  File "compose/cli/main.py", line 1103, in up
+  File "compose/project.py", line 570, in up
+  File "compose/parallel.py", line 112, in parallel_execute
+  File "compose/parallel.py", line 210, in producer
+  File "compose/project.py", line 556, in do
+  File "compose/service.py", line 568, in execute_convergence_plan
+  File "compose/service.py", line 510, in _execute_convergence_start
+  File "compose/parallel.py", line 112, in parallel_execute
+  File "compose/parallel.py", line 210, in producer
+  File "compose/service.py", line 508, in <lambda>
+  File "compose/service.py", line 620, in start_container_if_stopped
+  File "compose/service.py", line 627, in start_container
+TypeError: a bytes-like object is required, not 'str'
+[93775] Failed to execute script docker-compose
+```
 
 
 ### 参考

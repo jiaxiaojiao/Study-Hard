@@ -20,6 +20,7 @@
     * [Nacos部署-集群模式](Nacos-Install-cluster.md)
     * [Nacos部署-Docker（单机模式和集群模式）](Nacos-Install-Docker.md)
     * [Nacos集成监控](Nacos-Integrated-Install.md)
+    * [Nacos Spring Cloud](Nacos-Spring-Cloud.md)
 * [开源生态相关/与开源组件的集成](#开源生态相关/与开源组件的集成)
 * [参考](#参考)
 
