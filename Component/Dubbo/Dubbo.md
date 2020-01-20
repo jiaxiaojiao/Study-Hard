@@ -1,6 +1,6 @@
 ## Dubbo
 
-> Apache Dubbo
+> Apache Dubbo /ˈdʌbəʊ/
 
 网站： http://dubbo.apache.org/zh-cn/
 

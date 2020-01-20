@@ -1,5 +1,6 @@
 ## Grafana
 
+> Grafana	/ˈɡræfɑnɑ/
 网站： `https://grafana.com/`
 
 文档： `https://grafana.com/docs/grafana/latest/`
@@ -15,7 +16,8 @@
 * [Grafana与Kibana的相同点和差异](#Grafana与Kibana的相同点和差异)
 * 安装使用
     * [Docker安装Grafana](Prometheus-install2.md#Docker安装Grafana)
-    * [引入DashBoard模板](Grafana-DashBoard.md)
+    * [DashBoard模板](Grafana-DashBoard.md)
+    * [DashBoard模板导入导出删除](#DashBoard模板导入导出删除)
 * [参考](#参考)
 
 ### Grafana 是什么？
@@ -57,9 +59,18 @@ Grafana类似Kibana, 是对后端的数据进行实时展示。
 * Grafana一般是和一些时间序列数据库进行配合来展示数据的，例如：Graphite、OpenTSDB、InfluxDB等。有着丰富的插件可以选择和进行定制。
 
 
+### DashBoard模板导入导出删除
+步骤：
+1. 登录Grafana。 
+2. 导入Dashboard： 选择左侧的加号（+） ， 选择 `Import`， 选择 `Upload .json file` ， 编辑 Dashboard名称和数据源等信息， 选择 `Import`， 导入成功！
+3. 导出Dashboard： 在需要导出的Dashboard页面，选择 `Share Dashboard` ， 选择 `Export`， 选择 `Save to file`。 
+4. 删除Dashboard： 在需要删除的Dashboard页面，选择 `Dashboard settings`， `General` ， 选择 `Delete Dashboard`
+
+
 ### 参考
-* `https://grafana.com/grafana/download?platform=docker`
-* `https://grafana.com/docs/grafana/latest/features/datasources/prometheus/`
+* Grafana下载 `https://grafana.com/grafana/download?platform=docker`
+* Grafana文档-使用Prometheus作为数据源 `https://grafana.com/docs/grafana/latest/features/datasources/prometheus/`
 * `https://www.jianshu.com/p/7e7e0d06709b`
 * `https://www.jianshu.com/p/0d82c7ccc85a`
 * `https://www.jianshu.com/p/3527f48165d7`
+* Grafana导入导出Dashboard模板， 删除Dashboard `https://blog.csdn.net/HYZX_9987/article/details/101023503`

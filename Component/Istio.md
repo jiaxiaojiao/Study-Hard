@@ -7,6 +7,8 @@
 
 中文文档： https://preliminary.istio.io/zh/docs/concepts/what-is-istio/
 
+> istio /ɪztiːəʊ/ 
+>
 > Istio是一个十分流行的service mesh项目，它起源于Lyft。 
 
 ### 目录

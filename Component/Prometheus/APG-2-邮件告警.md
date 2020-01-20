@@ -15,6 +15,14 @@
 * Nacos， 账号密码： nacos-nacos 。 http://192.168.229.129:8848/nacos/
 * Nacos暴露actuator 。 http://192.168.229.129:8848/nacos/actuator/prometheus
 
+```text
+# 操作步骤
+# cd /usr/local/nacos-docker/
+# docker-compose -f example/standalone-derby.yaml up
+
+```
+
+
 
 ### 告警
 ### 支持的告警方式

@@ -7,7 +7,7 @@
 
 中文社区： https://www.kubernetes.org.cn/
 
-> 生产级别的容器编排系统 - 自动化的容器部署、扩展和管理
+> Kubernetes /koo-ber-nay'-tace/ 生产级别的容器编排系统 - 自动化的容器部署、扩展和管理
 
 ### 目录
 * [Kubernetes是什么？](#Kubernetes是什么？)
@@ -33,6 +33,8 @@
     * [集群安全机制](集群安全机制.md)
     * [HELM](HELM.md)
     * [运维](运维.md)
+* 与其他组件搭配
+    * [监控K8S-Prometheus和Grafana](Kubernetes-monitor.md)
 
 ### Kubernetes是什么？
 > Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.

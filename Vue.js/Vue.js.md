@@ -4,7 +4,9 @@
 
 用户指南-中文： https://cn.vuejs.org/v2/guide/syntax.html
 
-> 学习Vue.js之前需要有扎实的JavaScript/HTML/CSS基础。
+> Vue /vju:/ 
+>
+>学习Vue.js之前需要有扎实的JavaScript/HTML/CSS基础。
 >
 > 参考： https://zhuanlan.zhihu.com/p/23134551
 

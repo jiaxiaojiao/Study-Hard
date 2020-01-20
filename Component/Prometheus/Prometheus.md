@@ -194,3 +194,8 @@ Prometheus 监控服务器：
 * `https://www.jianshu.com/p/77804cf14cff`
 * `https://ryanyang.gitbook.io/prometheus/`
 * `https://www.kancloud.cn/cdh0805010118/prometheus/719340`
+* `https://cloud.tencent.com/developer/article/1424463`
+* `https://chanjarster.github.io/post/prom-grafana-jvm/`
+* `https://www.jianshu.com/p/762fa72ffe79`
+* `https://blog.52itstyle.vip/archives/1984/`
+* `https://www.cnblogs.com/duanxz/p/10179512.html`

@@ -2,7 +2,7 @@
 
 源码： https://github.com/Netflix/eureka
 
-> 服务注册与发现的组件
+> Eureka /juә'ri:kә/ 服务注册与发现的组件
 
 ### 目录
 * [Eureka 是什么？](#Eureka-是什么？)

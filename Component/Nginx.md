@@ -4,7 +4,7 @@
 
 https://www.nginx.com/resources/wiki/
 
-> 反向代理服务
+> Nginx /ˈɛndʒɪnˈeks/ 反向代理服务
 
 ### 目录
 * [Nginx 是什么？](#Nginx-是什么？)
