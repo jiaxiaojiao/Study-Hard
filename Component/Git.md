@@ -2,10 +2,6 @@
 
 ### 目录
 * [在Linux上安装Git](#在Linux上安装Git)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
 * [参考](#参考)
 
 ### 在Linux上安装Git
@@ -96,10 +92,7 @@ Running transaction
 完毕！
 ```
   
-### 
-### 
-### 
-### 
 ### 参考
-* `https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git`
-* `https://git-scm.com/download/linux`
+* 网站 `https://git-scm.com/`
+* 文档 `https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git`
+* 下载 `https://git-scm.com/download/linux`

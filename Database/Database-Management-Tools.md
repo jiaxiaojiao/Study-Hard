@@ -8,7 +8,7 @@
 * DBeaver
 * SqlWave
 * MyWebSQL
-* **Navicat**
+* **Navicat**  `https://www.navicat.com.cn/`
 * SQLyog
 * Sequel Pro
 * HeidiSQL

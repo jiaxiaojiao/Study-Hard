@@ -1,14 +1,11 @@
 ## Apache Kafka
 
-网站： kafka.apache.org
-
 > A distributed streaming platform.
-> 
-> 内容来源（参考）： 官网，百度百科 
 
 ### 目录
 * [Kafka是什么？](#Kafka是什么？)
 * [什么是分布式流平台？](#什么是分布式流平台？)
+* [参考](#参考)
 
 ### Kafka是什么？
 
@@ -53,3 +50,6 @@ In Kafka the communication between the clients and the servers is done with a si
 * 1.0.0    Released November 1, 2017
 * 0.7.0    Released January 4, 2012
 
+### 参考
+* 网站 `http://kafka.apache.org/`
+* 百度百科

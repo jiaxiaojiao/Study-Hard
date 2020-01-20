@@ -25,4 +25,5 @@ export PATH=$MAVEN_HOME/bin:$PATH
 * 验证 `mvn –v`
 
 ### 参考
-* `https://maven.apache.org/download.cgi`
+* 网站 `https://maven.apache.org/`
+* 下载 `https://maven.apache.org/download.cgi`

@@ -9,9 +9,10 @@
 * Intellij IDEA
 * [JetBrains WebStorm](#WebStorm)
 * JetBrains PyCharm
+* [参考](#参考)
 
 ### WebStorm
+底部显示Version Control标签 `项目右键 - 选择Git - Show History`
 
-底部显示Version Control标签
-
-    项目右键 - 选择Git - Show History
+### 参考
+* Eclipse 网站  `https://www.eclipse.org/`
