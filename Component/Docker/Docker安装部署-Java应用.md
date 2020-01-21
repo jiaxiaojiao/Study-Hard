@@ -104,7 +104,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.231-b11, mixed mode)
 
 ### 部署web应用
 Web应用是DEMO项目， [Prometheus](../Prometheus/Prometheus-install2.md#Demo项目)也使用这个DEMO项目。
-* 使用IDEA，把Spring Boot 项目[打成war包](../../IDE/JetBrains/IDEA-war-SpringBoot.md)。
+* 使用IDEA，把Spring Boot 项目[打成war包](../../Tools-Software/IDE/JetBrains/IDEA-war-SpringBoot.md)。
 * 把war包上传到mytomcat容器。
     ```text
     # 切换到root账号
