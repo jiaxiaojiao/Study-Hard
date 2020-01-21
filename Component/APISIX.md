@@ -1,9 +1,5 @@
 ## Apache APISIX
 
-网站： https://www.iresty.com/
-
-源码： https://github.com/iresty
-
 ### 目录
 * [APISIX 是什么？](#APISIX-是什么？)
 * [API网关对比]()
@@ -24,5 +20,6 @@ APISIX 是一个高性能、可扩展的微服务 API 网关。它是基于 Ngin
 * ⽇志插件：记录请求或响应⽇志，并通过 HTTP、TCP 或 UDP 等⽅式发送到你的系统(⽐如: StatsD, Syslog)
 
 ### 参考
-* `官网`
-* `https://www.jianshu.com/p/1571affd1e2d`
+* 网站 https://www.iresty.com/
+* 源码 https://github.com/iresty
+* https://www.jianshu.com/p/1571affd1e2d

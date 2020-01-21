@@ -1,14 +1,8 @@
 ## Vue.js
 
-用户指南： https://vuejs.org/v2/guide/syntax.html  
-
-用户指南-中文： https://cn.vuejs.org/v2/guide/syntax.html
-
 > Vue /vju:/ 
 >
 > 学习Vue.js之前需要有扎实的JavaScript/HTML/CSS基础。
->
-> 参考： https://zhuanlan.zhihu.com/p/23134551
 
 ### 目录
 * [描述](#描述)
@@ -55,6 +49,10 @@ Vue.js 是一个JavaScriptMVVM库，是一套构建用户界面的渐进式框�
 6. 参考 贡献指南 阅读 Vue 的源码，理解内部实现细节。（需要了解 Flow）
 
 ### 参考
-* 网站 `https://vuejs.org/`
-* 中文网站 `https://cn.vuejs.org/`
-* 论坛 `https://forum.vuejs.org/`
+* 网站 https://vuejs.org/
+* 中文网站 https://cn.vuejs.org/
+* 论坛 https://forum.vuejs.org/
+* 用户指南： https://vuejs.org/v2/guide/syntax.html  
+* 用户指南-中文： https://cn.vuejs.org/v2/guide/syntax.html
+* https://zhuanlan.zhihu.com/p/23134551
+

@@ -1,9 +1,5 @@
 ## Concourse CI
 
-网站： https://concourse-ci.org/
-
-源码： https://github.com/concourse/concourse
-
 ### 目录
 * [Concourse CI 是什么？](#Concourse-CI-是什么？)
 * [参考](#参考)
@@ -19,4 +15,5 @@ Concourse建立在资源、任务和工作的简单机制之上，它提供了�
 Concourse是一个用Go编写的自动化系统。它最常用于CI/CD，并可扩展到任何类型的自动化管道，从简单到复杂。
 
 ### 参考
-* 官网
+* 网站 https://concourse-ci.org/
+* 源码 https://github.com/concourse/concourse

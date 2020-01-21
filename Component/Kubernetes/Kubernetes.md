@@ -1,12 +1,6 @@
 ## Kubernetes
 **_学习_**
 
-网站： https://kubernetes.io/
-
-源码： https://github.com/kubernetes/kubernetes
-
-中文社区： https://www.kubernetes.org.cn/
-
 > Kubernetes /koo-ber-nay'-tace/ 生产级别的容器编排系统 - 自动化的容器部署、扩展和管理
 
 ### 目录
@@ -141,10 +135,10 @@ K8s是一个开源的容器集群管理系统，可以实现容器集群的自�
 * 资源利用：更高效
 
 ### 参考
-* `官网`
-* `GitHub`
-* `中文社区`
-* `https://www.jianshu.com/p/94e551534035`
-* `https://blog.csdn.net/wzq756984/article/details/88977439`
-* `哔哩哔哩-尚硅谷 Kubernetes`
+* 网站 https://kubernetes.io/
+* 源码 https://github.com/kubernetes/kubernetes
+* 中文社区 https://www.kubernetes.org.cn/
+* https://www.jianshu.com/p/94e551534035
+* https://blog.csdn.net/wzq756984/article/details/88977439
+* 哔哩哔哩-尚硅谷 Kubernetes
 

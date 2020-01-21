@@ -110,4 +110,4 @@ curl -X GET "http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=nacos.cfg.dataId&g
 ```
 
 ### 参考
-* `https://nacos.io/zh-cn/docs/deployment.html`
+* https://nacos.io/zh-cn/docs/deployment.html

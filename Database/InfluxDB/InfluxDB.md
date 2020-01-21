@@ -6,9 +6,6 @@
 >
 > InfluxDB是一个由InfluxData开发的开源时序型数据。它由Go写成，着力于高性能地查询与存储时序型数据。InfluxDB被广泛应用于存储系统的监控数据，IoT行业的实时数据等场景。 
 
-GitHub https://github.com/influxdata/influxdb
-
-网站 https://www.influxdata.com/
 
 ### 目录
 * [介绍](#介绍)
@@ -57,4 +54,8 @@ GitHub https://github.com/influxdata/influxdb
     field set：每组field key和field value的集合
     
     series：共同retention policy，measurement和tag set的集合
+
+### 参考
+* 网站： https://www.influxdata.com/
+* 源码： https://github.com/influxdata/influxdb
 

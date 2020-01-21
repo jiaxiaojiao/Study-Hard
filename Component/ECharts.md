@@ -4,5 +4,5 @@
 * [参考](#参考)
 
 ### 参考
-* 网站 `https://www.echartsjs.com/zh/index.html`
+* 网站： https://www.echartsjs.com/zh/index.html
 

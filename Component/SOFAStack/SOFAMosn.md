@@ -1,16 +1,11 @@
 ## SOFAMosn
 
-网站：https://www.sofastack.tech/projects/sofa-mosn/overview/
-
 > SOFAMosn 是一款使用 Go 语言开发的 Service Mesh 数据平面代理，
 > 旨在为服务提供分布式、模块化、可观察和智能化的代理能力。
 > SOFAMosn 是 SOFAStack 中的一个项目，
 > 其中 MOSN 是 Modular Observable Smart Network 的简称。
 > SOFAMosn 可以与任何支持 xDS API 的 Service Mesh 集成，亦可以作为独立的四、七层负载均衡使用。
 > 未来 SOFAMosn 将支持更多云原生场景，并支持 Nginx 的核心转发功能。
->
-> 参考： 官网
-
 
 ### 目录
 * [核心能力](#核心能力)
@@ -54,5 +49,6 @@
     * 支持在 TCP IO 层，协议层面加入自定义扩展
 
 ### 参考
+* 网站：https://www.sofastack.tech/projects/sofa-mosn/overview/
 
 Envoy、Istio 体系

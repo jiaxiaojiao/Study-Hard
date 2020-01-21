@@ -1,9 +1,5 @@
 ## Hystrix
 
-网站： https://spring.io/projects/spring-cloud-netflix
-
-源码： https://github.com/Netflix/Hystrix
-
 Circuit Breaker
 
 ### 目录
@@ -23,5 +19,6 @@ Hystrix为了实现高可用性的架构，有以下设计原则：
 5. 支持近实时的监控、报警以及运维操作。
 
 ### 参考
-* `官网`
-* `https://blog.csdn.net/Anbang713/article/details/85591774`
+* 网站 https://spring.io/projects/spring-cloud-netflix
+* 源码 https://github.com/Netflix/Hystrix
+* https://blog.csdn.net/Anbang713/article/details/85591774

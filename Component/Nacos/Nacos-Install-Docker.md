@@ -116,11 +116,11 @@ Centos7安全Selinux禁止了一些安全权限，导致mysql和mariadb在进行
 
 
 ### 参考
-* `https://nacos.io/zh-cn/docs/quick-start-docker.html`
-* `https://github.com/nacos-group/nacos-docker`
-* `https://www.jianshu.com/p/bccda875e7a5`
-* `https://blog.csdn.net/xinluke/article/details/51925293`
-* `https://www.cnblogs.com/hellxz/p/nacos-cluster-docker.html`
-* `https://www.jianshu.com/p/c410845f0dca`
-* `https://cloud.tencent.com/developer/article/1453550`
-* `http://www.itmuch.com/spring-cloud-alibaba/nacos-ha/`
+* https://nacos.io/zh-cn/docs/quick-start-docker.html
+* https://github.com/nacos-group/nacos-docker
+* https://www.jianshu.com/p/bccda875e7a5
+* https://blog.csdn.net/xinluke/article/details/51925293
+* https://www.cnblogs.com/hellxz/p/nacos-cluster-docker.html
+* https://www.jianshu.com/p/c410845f0dca
+* https://cloud.tencent.com/developer/article/1453550
+* http://www.itmuch.com/spring-cloud-alibaba/nacos-ha/

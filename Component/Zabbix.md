@@ -1,11 +1,6 @@
 ## Zabbix
 
-网站： https://www.zabbix.com/cn/
-
-源码： https://github.com/zabbix/zabbix
-
 > 企业级开源监控解决方案
->
 
 ### 目录
 * [Zabbix 是什么？](#Zabbix-是什么？)
@@ -129,4 +124,5 @@ Zabbix Server将收集的监控数据存储到Zabbix Database中。Zabbix Databa
 缺点： 部署相对麻烦
 
 ### 参考
-* `官网`
+* 网站： https://www.zabbix.com/cn/
+* 源码： https://github.com/zabbix/zabbix

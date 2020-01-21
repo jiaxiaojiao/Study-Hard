@@ -1,8 +1,5 @@
 ## Spring Cloud Gateway
 
-网站： https://spring.io/projects/spring-cloud-gateway
-
-源码： https://github.com/spring-cloud/spring-cloud-gateway
 
 ### 目录
 * [Spring Cloud Gateway 是什么？](#Spring-Cloud-Gateway-是什么？)
@@ -24,6 +21,7 @@ Spring Cloud Gateway可被视为Spring Cloud Netflix Zuul项目的后续产品 �
 3. 随着Spring Boot 2和Spring Cloud 2的发布，与Zuul相比，Spring Cloud Gateway具有卓越的性能。
 
 ### 参考
-* 官网
-* `https://baijiahao.baidu.com/s?id=1635961493324983528&wfr=spider&for=pc`
+* 网站： https://spring.io/projects/spring-cloud-gateway
+* 源码： https://github.com/spring-cloud/spring-cloud-gateway
+* https://baijiahao.baidu.com/s?id=1635961493324983528&wfr=spider&for=pc
 

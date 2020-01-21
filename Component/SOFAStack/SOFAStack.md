@@ -1,6 +1,5 @@
 ## SOFAStack
 
-网站： https://www.sofastack.tech/
 
 > 金融级分布式架构
 >
@@ -98,6 +97,6 @@ SOFAStack所有的产品技术都经过蚂蚁金服自身严苛金融场景验�
     Seata 是一款分布式事务解决方案，致力于在微服务架构下提供高性能和简单易用的分布式事务服务。
 
 ### 参考
-* `官网`
-* `https://help.aliyun.com/document_detail/131841.html`
+* 网站 https://www.sofastack.tech/
+* https://help.aliyun.com/document_detail/131841.html
 

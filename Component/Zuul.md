@@ -46,6 +46,6 @@ Spring Cloud Gateway网关介绍：
 * Spring Cloud Gateway明确区分了Router和Filter，内置了很多开箱即用的功能，并且都可以通过Spring Boot配置或手工编码链式调用来使用。
 
 ### 参考
-* `GitHub-zuul-wiki`
-* `https://www.jianshu.com/p/ca76a4f396d1`
-* `https://www.zhihu.com/question/280850489`
+* GitHub-zuul-wiki
+* https://www.jianshu.com/p/ca76a4f396d1
+* https://www.zhihu.com/question/280850489

@@ -25,7 +25,7 @@ export PATH=$MAVEN_HOME/bin:$PATH
 * 验证 `mvn –v`
 
 ### 参考
-* 网站 `https://maven.apache.org/`
-* 下载 `https://maven.apache.org/download.cgi`
-* Maven Repository（推荐使用） `https://mvnrepository.com/`
-* 查询 Maven `https://search.maven.org/`
+* 网站 https://maven.apache.org/
+* 下载 https://maven.apache.org/download.cgi
+* Maven Repository（推荐使用） https://mvnrepository.com/
+* 查询 Maven https://search.maven.org/

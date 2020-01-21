@@ -2,10 +2,6 @@
 
 > Apache Dubbo /ˈdʌbəʊ/
 
-网站： http://dubbo.apache.org/zh-cn/
-
-源码： https://github.com/apache/dubbo
-
 ### 目录
 * [Dubbo 是什么？](#Dubbo-是什么？)
 * [Dubbo 架构](#Dubbo-架构)
@@ -15,6 +11,7 @@
 * [Dubbo 的超时机制和重试机制](Dubbo-timeout-retries.md)
 * [文档](http://dubbo.apache.org/zh-cn/docs/user/quick-start.html)
 * [脚手架：快速生成基于 Spring Boot 的 Dubbo 项目](http://start.dubbo.io/)
+* [参考](#参考)
 
 ### Dubbo 是什么？
 Apache Dubbo™ 是一款高性能Java RPC框架。
@@ -49,4 +46,6 @@ Apache Dubbo `|ˈdʌbəʊ|` 是一款高性能、轻量级的开源Java RPC框�
 
     提供丰富服务治理、运维工具：随时查询服务元数据、服务健康状态及调用统计，实时下发路由策略、调整配置参数。
  
-
+### 参考
+* 网站： http://dubbo.apache.org/zh-cn/
+* 源码： https://github.com/apache/dubbo

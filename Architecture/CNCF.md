@@ -1,6 +1,5 @@
 ## CNCF
 
-网站： https://www.cncf.io/
 
 ### 目录
 * [CNCF 是什么？](#CNCF-是什么？)
@@ -21,4 +20,4 @@ CNCF是一个开源软件基金会，它致力于云原生（Cloud Native）技�
 6. 云便携性
 
 ### 参考
-* 官网
+* 网站 https://www.cncf.io/

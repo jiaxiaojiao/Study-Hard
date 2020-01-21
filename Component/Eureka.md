@@ -66,5 +66,5 @@ Spring Cloud 将Eureka集成在子项目Spring-Cloud-Netflix中，以实现Sprin
 ZooKeeper
 
 ### 参考
-* `https://github.com/Netflix/eureka/wiki`
-* `https://www.cnblogs.com/knowledgesea/p/11208000.html`
+* https://github.com/Netflix/eureka/wiki
+* https://www.cnblogs.com/knowledgesea/p/11208000.html

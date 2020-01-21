@@ -1,6 +1,5 @@
 ## Service Fabric
 
-源码： https://github.com/Microsoft/service-fabric
 
 ### 目录
 * [Service Fabric 是什么？](#Service-Fabric-是什么？)
@@ -14,6 +13,6 @@ Service Fabric是一个用于大规模打包、部署和管理无状态和有状
 2018年3月14日微软开源了 Service Fabric。
 
 ### 参考
-* 官网
+* 源码： https://github.com/Microsoft/service-fabric
 
 

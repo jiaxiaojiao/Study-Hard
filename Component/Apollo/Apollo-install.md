@@ -39,9 +39,9 @@
 * 部署Apollo服务端 
 
 ### 参考
-* `https://github.com/ctripcorp/apollo/`
-* `https://github.com/ctripcorp/apollo/wiki/Quick-Start`
-* `https://github.com/ctripcorp/apollo/wiki/Apollo-Quick-Start-Docker%E9%83%A8%E7%BD%B2`
-* `https://github.com/ctripcorp/apollo/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97`
-* `https://github.com/idoop/docker-apollo`
-* `https://hub.docker.com/r/idoop/docker-apollo/`
+* https://github.com/ctripcorp/apollo/
+* https://github.com/ctripcorp/apollo/wiki/Quick-Start
+* https://github.com/ctripcorp/apollo/wiki/Apollo-Quick-Start-Docker%E9%83%A8%E7%BD%B2
+* https://github.com/ctripcorp/apollo/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97
+* https://github.com/idoop/docker-apollo
+* https://hub.docker.com/r/idoop/docker-apollo/

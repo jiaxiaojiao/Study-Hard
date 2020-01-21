@@ -160,7 +160,4 @@ QoS参数可以通过如下方式进行配置：优先顺序为JVM系统属性 >
 
 
 ### 参考
-* `https://blog.csdn.net/u012988901/article/details/84503672`
-* ``
-* ``
-
+* https://blog.csdn.net/u012988901/article/details/84503672

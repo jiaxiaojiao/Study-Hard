@@ -1,10 +1,6 @@
 ## Alertmanager
 **_学习_**
 
-文档： https://prometheus.io/docs/alerting/alertmanager/
-
-源码： https://github.com/prometheus/alertmanager
-
 报警神器
 
 ### 目录
@@ -44,6 +40,7 @@ Alertmanager 的目标不是简单地"发出警报"，而是"发出高质量的�
 Alertmanager 整体的设计意图就是奔着治理警报（通知）去的，首先它用 Routing Tree 来帮助用户定义警报的归类与发送逻辑，然后再用 Notification Pipeline 来做抑制、静默、去重以提升警报质量。这些功能虽然不能解决"警报"这件事中所有令人头疼的问题，但确实为我们着手去解决"警报质量"相关问题提供了趁手的工具。
 
 ### 参考
-* `官网`
-* `https://zhuanlan.zhihu.com/p/63270049`
+* 文档 https://prometheus.io/docs/alerting/alertmanager/
+* 源码 https://github.com/prometheus/alertmanager
+* https://zhuanlan.zhihu.com/p/63270049
 

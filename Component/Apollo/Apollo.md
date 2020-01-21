@@ -1,10 +1,6 @@
 ## Apollo
 **_学习_**
 
-源码1： https://github.com/ctripcorp/apollo
-
-源码2： https://gitee.com/lepdou/apollo
-
 > 统一配置中心。 宋顺
 >
 > 开源，学习下源码，优点
@@ -143,5 +139,5 @@ Java客户端不依赖任何框架，能够运行于所有Java运行时环境，
 总结： Nacos的部署结构比较简单，运维成本较低。Apollo部署组件较多，运维成本比Nacos高。Spring Cloud Config生产高可用的成本最高。
 
 ### 参考
-* `官网`
-* `网络`
+* 源码 `https://github.com/ctripcorp/apollo`
+* 源码 `https://gitee.com/lepdou/apollo`

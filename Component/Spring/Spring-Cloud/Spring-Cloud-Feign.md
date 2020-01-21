@@ -1,12 +1,5 @@
 ## Feign
 
-网站： `https://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign`
-
-源码： `https://github.com/OpenFeign/feign`
-
-文档： `https://cloud.spring.io/spring-cloud-openfeign/reference/html/`
-
-自己写的使用feign代码： `https://github.com/jiaxiaojiao/Study-SpringBoot/tree/master/ordercenter`
 
 ### 目录
 * [# 什么是 Feign？](##-什么是-Feign？)
@@ -256,20 +249,23 @@ feign.client.config.default.logger-level=basic
 * path：定义当前 FeignClient 的统一前缀。
 
 ### 参考
-* `https://spring.io/projects/spring-cloud-openfeign`
-* `https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html`
-* 配置 `https://blog.51cto.com/zero01/2424667`
-
-* `https://blog.csdn.net/chengqiuming/article/details/80713471`
-* `https://blog.csdn.net/antma/article/details/81317707`
-* `https://blog.csdn.net/wo18237095579/article/details/83343915`
-* `https://blog.csdn.net/qq_33363618/article/details/83048411`
-* `https://blog.csdn.net/wo18237095579/article/details/83343915` 演示OK
-* `https://www.jianshu.com/p/e3323e8131df`
-* `https://www.jianshu.com/p/b6a47b06d3dc`
-* `https://www.jianshu.com/p/5fae81b3624f`
-* `https://www.jianshu.com/p/8abafab12243`
-* `https://www.jianshu.com/p/59295c91dde7`
-* `https://www.jianshu.com/p/8c7b92b4396c`
-* `https://www.jianshu.com/p/e3f31133db85`
-* `https://www.kancloud.cn/fymod/springcloud/536931`
+* 网站： https://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign
+* 源码： https://github.com/OpenFeign/feign
+* 文档： https://cloud.spring.io/spring-cloud-openfeign/reference/html/
+* 自己写的使用feign代码： https://github.com/jiaxiaojiao/Study-SpringBoot/tree/master/ordercenter
+* https://spring.io/projects/spring-cloud-openfeign
+* https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html
+* 配置 https://blog.51cto.com/zero01/2424667
+* https://blog.csdn.net/chengqiuming/article/details/80713471
+* https://blog.csdn.net/antma/article/details/81317707
+* https://blog.csdn.net/wo18237095579/article/details/83343915
+* https://blog.csdn.net/qq_33363618/article/details/83048411
+* https://blog.csdn.net/wo18237095579/article/details/83343915 演示OK
+* https://www.jianshu.com/p/e3323e8131df
+* https://www.jianshu.com/p/b6a47b06d3dc
+* https://www.jianshu.com/p/5fae81b3624f
+* https://www.jianshu.com/p/8abafab12243
+* https://www.jianshu.com/p/59295c91dde7
+* https://www.jianshu.com/p/8c7b92b4396c
+* https://www.jianshu.com/p/e3f31133db85
+* https://www.kancloud.cn/fymod/springcloud/536931

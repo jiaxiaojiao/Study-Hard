@@ -51,5 +51,5 @@ In Kafka the communication between the clients and the servers is done with a si
 * 0.7.0    Released January 4, 2012
 
 ### 参考
-* 网站 `http://kafka.apache.org/`
+* 网站 http://kafka.apache.org/
 * 百度百科

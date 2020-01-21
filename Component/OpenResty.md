@@ -1,9 +1,5 @@
 ## OpenResty
 
-网站： http://openresty.org/cn/
-
-源码： https://github.com/openresty/openresty
-
 ### 目录
 * [OpenResty 是什么？](#OpenResty-是什么？)
 * [OpenResty 有哪些组件？](#OpenResty-有哪些组件？)
@@ -73,5 +69,5 @@ XssNginxModule
 ```
 
 ### 参考
-* `官网`
-* ``
+* 网站 http://openresty.org/cn/
+* 源码 https://github.com/openresty/openresty

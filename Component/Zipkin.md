@@ -1,8 +1,5 @@
 ## Zipkin
 
-网站： https://zipkin.io/
-
-源码： https://github.com/openzipkin/zipkin
 
 ### 目录
 * [Zipkin 是什么？](#Zipkin-是什么？)
@@ -39,4 +36,6 @@ Zipkin提供了可插拔数据存储方式：In-Memory、MySql、Cassandra以及
 * skywalking
 
 ### 参考
-* `https://www.jianshu.com/p/4fa81b661f55`
+* 网站： https://zipkin.io/
+* 源码： https://github.com/openzipkin/zipkin
+* https://www.jianshu.com/p/4fa81b661f55

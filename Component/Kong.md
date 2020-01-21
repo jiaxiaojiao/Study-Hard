@@ -1,8 +1,5 @@
 ## Kong
 
-网站： https://konghq.com/kong/
-
-源码： https://github.com/Kong/kong
 
 ### 目录
 * [Kong 是什么？](#Kong-是什么？)
@@ -54,5 +51,7 @@ Kong作为API网关提供了API管理功能，及围绕API管理实现了一些�
 综上所述，Kong API网关默认提供的插件比较丰富， 适应针对企业级的API网关定位。
 
 ### 参考
-* `https://www.jianshu.com/p/4dd5ed88468c`
+* 网站： https://konghq.com/kong/
+* 源码： https://github.com/Kong/kong
+* https://www.jianshu.com/p/4dd5ed88468c
 

@@ -322,9 +322,9 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ```
 
 ### 参考
-* `https://www.cnblogs.com/vovlie/p/Prometheus_install.html`
-* `https://www.jianshu.com/p/3284507b2f87`
-* `http://qinghua.github.io/prometheus/`
-* `https://www.cnblogs.com/suveng/p/11481399.html`
-* `https://blog.csdn.net/qq_27520051/article/details/91478732`
-* `https://blog.csdn.net/weixin_38860565/article/details/90047972`
+* https://www.cnblogs.com/vovlie/p/Prometheus_install.html
+* https://www.jianshu.com/p/3284507b2f87
+* http://qinghua.github.io/prometheus/
+* https://www.cnblogs.com/suveng/p/11481399.html
+* https://blog.csdn.net/qq_27520051/article/details/91478732
+* https://blog.csdn.net/weixin_38860565/article/details/90047972

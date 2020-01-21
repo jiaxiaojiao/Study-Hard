@@ -1,14 +1,6 @@
 ## Prometheus
 **_重点学习_**
 
-网站： https://prometheus.io/
-
-文档： https://prometheus.io/docs/introduction/overview/
-
-文档： https://prometheus.io/docs/prometheus/latest/getting_started/
-
-源码： https://github.com/prometheus/prometheus
-
 > 普罗米修斯
 >
 > 网上说入门门槛有点高，不知道...
@@ -188,14 +180,17 @@ Prometheus 监控服务器：
 2. Prometheus配置node-exporter。Prometheus 从 node-exporter 中获取到监控数据。[关于Prometheus配置node-exporter。](Node-exporter.md#修改Prometheus配置)
 
 ### 参考
-* `官网`
-* `http://www.sohu.com/a/342733264_198222`
-* `https://blog.csdn.net/peterwanghao/article/details/89148097`
-* `https://www.jianshu.com/p/77804cf14cff`
-* `https://ryanyang.gitbook.io/prometheus/`
-* `https://www.kancloud.cn/cdh0805010118/prometheus/719340`
-* `https://cloud.tencent.com/developer/article/1424463`
-* `https://chanjarster.github.io/post/prom-grafana-jvm/`
-* `https://www.jianshu.com/p/762fa72ffe79`
-* `https://blog.52itstyle.vip/archives/1984/`
-* `https://www.cnblogs.com/duanxz/p/10179512.html`
+* 网站： https://prometheus.io/
+* 文档： https://prometheus.io/docs/introduction/overview/
+* 文档： https://prometheus.io/docs/prometheus/latest/getting_started/
+* 源码： https://github.com/prometheus/prometheus
+* http://www.sohu.com/a/342733264_198222
+* https://blog.csdn.net/peterwanghao/article/details/89148097
+* https://www.jianshu.com/p/77804cf14cff
+* https://ryanyang.gitbook.io/prometheus/
+* https://www.kancloud.cn/cdh0805010118/prometheus/719340
+* https://cloud.tencent.com/developer/article/1424463
+* https://chanjarster.github.io/post/prom-grafana-jvm/
+* https://www.jianshu.com/p/762fa72ffe79
+* https://blog.52itstyle.vip/archives/1984/
+* https://www.cnblogs.com/duanxz/p/10179512.html

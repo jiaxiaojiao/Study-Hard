@@ -1,7 +1,5 @@
 ## Nagios
 
-网站： https://www.nagios.org/
-
 网络监视工具
 
 ### 目录
@@ -16,4 +14,5 @@ Nagios是一个监视系统运行状态和网络信息的监视系统。Nagios�
 Nagios可运行在Linux/Unix平台之上，同时提供一个可选的基于浏览器的WEB界面以方便系统管理人员查看网络状态，各种系统问题，以及日志等等。
 
 ### 参考
+* 网站： https://www.nagios.org/
 * 百度百科

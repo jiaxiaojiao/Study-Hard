@@ -105,5 +105,5 @@ Linux/Unix/Mac
 Linux/Unix/Mac `sh shutdown.sh`
 
 ### 参考
-* `https://nacos.io/zh-cn/docs/cluster-mode-quick-start.html`
-* `https://yq.aliyun.com/zt/492606`
+* https://nacos.io/zh-cn/docs/cluster-mode-quick-start.html
+* https://yq.aliyun.com/zt/492606

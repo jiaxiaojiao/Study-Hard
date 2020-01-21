@@ -44,9 +44,9 @@ dubbo.registry.address=nacos://192.168.229.129:8848
 
 
 ### 参考
-* `https://github.com/apache/dubbo/tree/master/dubbo-registry/dubbo-registry-nacos`
-* `http://dubbo.apache.org/zh-cn/docs/user/references/registry/nacos.html`
-* `https://nacos.io/zh-cn/docs/use-nacos-with-dubbo.html`
-* `https://github.com/ly641921791/knowledge-examples/tree/master/dubbo-example`
-* `https://www.cnblogs.com/lanqie/p/10552500.html`
-* `https://www.cnblogs.com/zjfjava/p/9696086.html`
+* https://github.com/apache/dubbo/tree/master/dubbo-registry/dubbo-registry-nacos
+* http://dubbo.apache.org/zh-cn/docs/user/references/registry/nacos.html
+* https://nacos.io/zh-cn/docs/use-nacos-with-dubbo.html
+* https://github.com/ly641921791/knowledge-examples/tree/master/dubbo-example
+* https://www.cnblogs.com/lanqie/p/10552500.html
+* https://www.cnblogs.com/zjfjava/p/9696086.html

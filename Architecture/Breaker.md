@@ -48,4 +48,4 @@
 * [Istio](../Component/Istio.md)
 
 ### 参考
-* `https://www.cnblogs.com/duanxz/p/9641489.html`
+* https://www.cnblogs.com/duanxz/p/9641489.html

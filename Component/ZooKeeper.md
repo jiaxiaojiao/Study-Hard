@@ -1,8 +1,5 @@
 ## ZooKeeper
 
-网站： https://zookeeper.apache.org/
-
-源码： https://github.com/apache/zookeeper
 
 > 服务注册中心
 >
@@ -65,7 +62,7 @@ ZooKeeper是一种分布式协调服务，用于管理大型主机。在分布�
 ZooKeeper 与 Eureka 比较
 
 ### 参考
-* `官网`
-* `百度百科`
-* `https://www.w3cschool.cn/zookeeper/zookeeper_overview.html`
-* `https://www.jianshu.com/p/e68c06a5d002`
+* 网站： https://zookeeper.apache.org/
+* 源码： https://github.com/apache/zookeeper
+* https://www.w3cschool.cn/zookeeper/zookeeper_overview.html
+* https://www.jianshu.com/p/e68c06a5d002

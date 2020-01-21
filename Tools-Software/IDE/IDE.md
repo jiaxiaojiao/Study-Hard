@@ -15,4 +15,4 @@
 底部显示Version Control标签 `项目右键 - 选择Git - Show History`
 
 ### 参考
-* Eclipse 网站  `https://www.eclipse.org/`
+* Eclipse 网站：  https://www.eclipse.org/

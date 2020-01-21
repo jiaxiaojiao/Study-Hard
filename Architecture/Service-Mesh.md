@@ -59,6 +59,5 @@ https://github.com/apache/skywalking
 ```
 
 ### 参考
-* `官网`
-* `https://blog.51cto.com/12462495/2437636`
-* `https://www.cnblogs.com/bocloud/p/10895296.html`
+* https://blog.51cto.com/12462495/2437636
+* https://www.cnblogs.com/bocloud/p/10895296.html

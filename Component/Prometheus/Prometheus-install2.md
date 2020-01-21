@@ -274,8 +274,7 @@ docker.io/ubuntu                  12.04               5b117edd0b76        2 year
 
 
 ### 参考
-* `后续才想到写参考，不全`
-* `https://github.com/prometheus/alertmanager`
-* `https://yq.aliyun.com/articles/664698`
-* `https://grafana.com/grafana/download?platform=docker`
-* `https://blog.51cto.com/msiyuetian/2369130`
+* https://github.com/prometheus/alertmanager
+* https://yq.aliyun.com/articles/664698
+* https://grafana.com/grafana/download?platform=docker
+* https://blog.51cto.com/msiyuetian/2369130

@@ -1,18 +1,7 @@
 ## TX-LCN分布式事务框架
 **_学习_**
 
-网站： http://www.txlcn.org/zh-cn/
-
-用户文档： http://www.txlcn.org/zh-cn/docs/preface.html
-
-源码： https://github.com/codingapi/tx-lcn
-
-Demo： https://github.com/codingapi/springcloud-lcn-demo
-
-其他： https://github.com/1991wangliang/tx-lcn
-
 > LCN并不生产事务，LCN只是本地事务的协调工
->
 
 ### 目录
 * [TX-LCN是什么？](#是什么？)
@@ -104,5 +93,9 @@ LCN5.0.2有3种模式，分别是LCN模式，TCC模式，TXC模式。
     在发起方执行完业务代码以后，将发起方执行结果状态通知给TxManager的动作。当执行完关闭事务组的方法以后，TxManager将根据事务组信息来通知相应的参与模块提交或回滚事务。
 
 ### 参考
-* `官网`
-* `https://blog.csdn.net/ningjiebing/article/details/89948050`
+* 网站： http://www.txlcn.org/zh-cn/
+* 用户文档： http://www.txlcn.org/zh-cn/docs/preface.html
+* 源码： https://github.com/codingapi/tx-lcn
+* Demo： https://github.com/codingapi/springcloud-lcn-demo
+* 其他： https://github.com/1991wangliang/tx-lcn
+* https://blog.csdn.net/ningjiebing/article/details/89948050

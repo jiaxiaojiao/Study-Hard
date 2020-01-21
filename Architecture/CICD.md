@@ -48,5 +48,5 @@ CI/CD的采用改变了开发人员和测试人员如何发布软件。
 ![Continuous Integration & Delivery](images/continuous-integration&delivery.jpg)
 
 ### 参考
-* `https://blog.csdn.net/weixin_44903147/article/details/96291588`
-* `https://www.jianshu.com/p/8efa63e32cfb`
+* https://blog.csdn.net/weixin_44903147/article/details/96291588
+* https://www.jianshu.com/p/8efa63e32cfb

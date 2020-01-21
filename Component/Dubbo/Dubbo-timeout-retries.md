@@ -34,4 +34,4 @@ Dubbo的超时重试机制为服务容错、服务稳定提供了比较好的框
 Dubbo的路由机制，会把超时的请求路由到其他机器上，而不是本机尝试。
 
 ### 参考
-* `https://www.cnblogs.com/xuwc/p/8974709.html`
+* https://www.cnblogs.com/xuwc/p/8974709.html

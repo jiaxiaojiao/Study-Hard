@@ -1,10 +1,6 @@
 ## Sentinel
 **_学习_**
 
-网站：https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D
-
-源码： https://github.com/alibaba/Sentinel
-
 Sentinel: 分布式系统的流量防卫兵
 
 ### 目录
@@ -77,5 +73,6 @@ Sentinel 的主要工作机制如下：
 * Sentinel 目前抽象出了 Metric 指标统计接口，底层可以有不同的实现，目前默认的实现是基于 LeapArray 的滑动窗口，后续根据需要可能会引入 reactive stream 等实现。
 
 ### 参考
-* `官网`
-* `https://yq.aliyun.com/articles/623424`
+* 网站 https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D
+* 源码 https://github.com/alibaba/Sentinel
+* https://yq.aliyun.com/articles/623424

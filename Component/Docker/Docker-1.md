@@ -94,15 +94,15 @@ LXC为Linux Container的简写。
 Linux 容器是一种内核虚拟化技术，可以提供轻量级的虚拟化，以便隔离进程和资源。
 
 ### 参考
-* 网站 `https://www.docker.com/`
-* 源码 `https://github.com/docker`
-* 中文社区 `http://www.docker.org.cn/`
-* 中文文档 `http://www.dockerinfo.net/document`
-* Docker 菜鸟教程 `https://www.runoob.com/docker/docker-tutorial.html`
-* 使用 Docker Hub 仓库 `https://www.jianshu.com/p/94eb79825372`
-* 上传 Docker Hub 仓库 `https://www.hangge.com/blog/cache/detail_2409.html`
-* LXC是什么 `https://linuxcontainers.org/lxc/introduction/`
-* Docker改名为Moby了吗？ `https://www.cnblogs.com/micrari/p/6748072.html`
-* Docker和Kubernetes `https://www.gitdig.com/k8s-my-definition/`
-* Docker和Kubernetes `https://zhuanlan.zhihu.com/p/53260098`
-* 微服务框架（Spring Boot + Dubbo + Docker + Jenkins） `https://zhuanlan.zhihu.com/p/33296468`
+* 网站： https://www.docker.com/
+* 源码： https://github.com/docker
+* 中文社区： http://www.docker.org.cn/
+* 中文文档： http://www.dockerinfo.net/document
+* Docker 菜鸟教程： https://www.runoob.com/docker/docker-tutorial.html
+* 使用 Docker Hub 仓库： https://www.jianshu.com/p/94eb79825372
+* 上传 Docker Hub 仓库： https://www.hangge.com/blog/cache/detail_2409.html
+* LXC是什么： https://linuxcontainers.org/lxc/introduction/
+* Docker改名为Moby了吗？： https://www.cnblogs.com/micrari/p/6748072.html
+* Docker和Kubernetes： https://www.gitdig.com/k8s-my-definition/
+* Docker和Kubernetes： https://zhuanlan.zhihu.com/p/53260098
+* 微服务框架（Spring Boot + Dubbo + Docker + Jenkins）： https://zhuanlan.zhihu.com/p/33296468

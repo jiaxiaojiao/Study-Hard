@@ -1,8 +1,5 @@
 ## GitLab CI
 
-网站： https://about.gitlab.com/product/continuous-integration/
-
-源码： https://gitlab.com/gitlab-org/gitlab-foss
 
 ### 目录
 * [GitLab CI 是什么？](#GitLab-CI-是什么？) 
@@ -15,4 +12,5 @@ GitLab是一个开源的端到端软件开发平台，内置了版本控制、�
 
 
 ### 参考
-* 官网
+* 网站 https://about.gitlab.com/product/continuous-integration/
+* 源码 https://gitlab.com/gitlab-org/gitlab-foss

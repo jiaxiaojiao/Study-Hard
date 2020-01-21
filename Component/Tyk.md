@@ -1,10 +1,5 @@
 ## Tyk
 
-网站： https://tyk.io/
-
-文档： https://tyk.io/docs/
-
-源码： https://github.com/TykTechnologies/tyk
 
 ### 目录
 * [Tyk 是什么？](#Tyk-是什么？)
@@ -28,4 +23,7 @@ Tyk是一个开源的轻量级API网关程序。
 Tyk只能支持HTTP REST API，不支持SOAP或者RPC等其他服务
 
 ### 参考
-* `https://www.cnblogs.com/lazio10000/p/5281905.html`
+* 网站： https://tyk.io/
+* 文档： https://tyk.io/docs/
+* 源码： https://github.com/TykTechnologies/tyk
+* https://www.cnblogs.com/lazio10000/p/5281905.html

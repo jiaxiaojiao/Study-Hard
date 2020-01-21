@@ -1,7 +1,5 @@
 ## ELK
 
-网站： https://www.elastic.co/cn/
-
 ### 目录
 * [ELK 是什么？](#ELK-是什么？)
 * [是否开源](#是否开源)
@@ -68,5 +66,5 @@ Elasticsearch的优点：
 ELK是作为替代Splunk的一个开源解决方案。
 
 ### 参考
-* `官网`
-* `https://blog.csdn.net/u012562943/article/details/99946609`
+* 网站： https://www.elastic.co/cn/
+* https://blog.csdn.net/u012562943/article/details/99946609

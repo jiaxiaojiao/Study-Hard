@@ -1,9 +1,5 @@
 ## AWS
 
-网站： https://amazon.com/aws
-
-源码： https://github.com/aws/aws-cli
-
 Amazon Web Services 亚马逊网络服务，简称AWS
 
 ### 目录
@@ -16,3 +12,5 @@ Amazon Web Services 亚马逊网络服务，简称AWS
 Amazon Web Services是Amazon.com的子公司，它以订阅的方式向个人、公司和政府提供随需应变的云计算平台。
 
 ### 参考
+* 网站 https://amazon.com/aws
+* 源码 https://github.com/aws/aws-cli

@@ -8,4 +8,4 @@
 简单静态博客网站生成器 - 将纯文本转换为静态博客网站。
 
 ### 参考
-* 网站 `https://jekyllrb.com/`
+* 网站 https://jekyllrb.com/

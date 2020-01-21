@@ -1,9 +1,5 @@
 ## GoCD
 
-网站： https://www.gocd.org/
-
-源码： https://github.com/gocd/gocd
-
 ### 目录
 * [GoCD是什么？](#GoCD是什么？)
 * [参考](#参考)
@@ -14,4 +10,5 @@
 免费&开源的CI/CD服务器。
 
 ### 参考
-* 官网
+* 网站 https://www.gocd.org/
+* 源码 https://github.com/gocd/gocd

@@ -122,13 +122,13 @@
 ### 遇到的问题
 
 ### 参考
-* Nacos作为配置中心 `https://www.bbsmax.com/A/x9J2P1rgd6/`
-* `https://www.larscheng.com/namingservice/`
-* `https://www.larscheng.com/nacos-openfeign/`
-* `https://www.cnblogs.com/wuxun1997/p/11392772.html`
-* `https://www.jianshu.com/p/98e916e825bc`
-* `https://www.jianshu.com/p/cde9447fa21d`
+* Nacos作为配置中心 https://www.bbsmax.com/A/x9J2P1rgd6/
+* https://www.larscheng.com/namingservice/
+* https://www.larscheng.com/nacos-openfeign/
+* https://www.cnblogs.com/wuxun1997/p/11392772.html
+* https://www.jianshu.com/p/98e916e825bc
+* https://www.jianshu.com/p/cde9447fa21d
 
 偶然发现不错的博客：
-* `https://removeif.github.io/`
-* `https://www.larscheng.com/`
+* https://removeif.github.io/
+* https://www.larscheng.com/

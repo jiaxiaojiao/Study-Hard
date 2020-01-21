@@ -60,5 +60,5 @@ Zabbix、Open-Falcon、Prometheus 对比
 从容器支持角度看，由于Zabbix出现得比较早，当时容器还没有诞生，自然对容器的支持也比较差。Open-Falcon虽然提供了容器的监控，但支持力度有限。Prometheus的动态发现机制，不仅可以支持Swarm原生集群，还支持Kubernetes容器集群的监控，是目前容器监控最好解决方案。Zabbix在传统监控系统中，尤其是在服务器相关监控方面，占据绝对优势。伴随着容器的发展，Prometheus开始成为主导及容器监控方面的标配，并且在未来可见的时间内被广泛应用。总体来说，对比各种监控系统的优劣，Prometheus可以说是目前监控领域最锋利的“瑞士军刀”了。
 
 ### 参考
-* `http://www.sohu.com/a/342733264_198222`
-* `https://www.jianshu.com/p/7f6654657417`
+* http://www.sohu.com/a/342733264_198222
+* https://www.jianshu.com/p/7f6654657417

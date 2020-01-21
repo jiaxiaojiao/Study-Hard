@@ -86,4 +86,4 @@ public static void main(String[] args) throws Exception {
 ```
 
 ### 参考
-* `http://dubbo.apache.org/zh-cn/docs/user/configuration/annotation.html`
+* http://dubbo.apache.org/zh-cn/docs/user/configuration/annotation.html

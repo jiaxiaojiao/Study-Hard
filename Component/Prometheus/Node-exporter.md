@@ -85,7 +85,7 @@ docker rm grafana
 docker rm node-exporter
 ```
 ### 参考
-* `https://www.jianshu.com/p/e3c9fc929d8a`
-* `https://zhuanlan.zhihu.com/p/78290435`
-* `https://songjiayang.gitbooks.io/prometheus/content/`
-* `https://www.jianshu.com/p/7bec152d1a1f`
+* https://www.jianshu.com/p/e3c9fc929d8a
+* https://zhuanlan.zhihu.com/p/78290435
+* https://songjiayang.gitbooks.io/prometheus/content/
+* https://www.jianshu.com/p/7bec152d1a1f

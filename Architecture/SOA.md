@@ -44,5 +44,5 @@ SOA的特征/特性：
 ![应用架构的变迁](images/architecture-history.png)
 
 ### 参考
-* `https://blog.csdn.net/zpoison/article/details/80729052`
-* `https://www.cnblogs.com/xiao2shiqi/p/11298663.html`
+* https://blog.csdn.net/zpoison/article/details/80729052
+* https://www.cnblogs.com/xiao2shiqi/p/11298663.html

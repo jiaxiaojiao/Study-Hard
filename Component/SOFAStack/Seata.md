@@ -1,10 +1,6 @@
 ## Seata
 **_学习_**
 
-网站： https://seata.io/zh-cn/
-
-源码： https://github.com/seata/seata
-
 > Seata 是一款阿里巴巴开源的分布式事务解决方案，致力于在微服务架构下提供高性能和简单易用的分布式事务服务。
 
 ### 目录
@@ -68,4 +64,5 @@ TaaS是一个与Seata兼容的高度可用的分布式事务解决方案的服�
 ### 其他替代组件
 
 ### 参考
-* `官网`
+* 网站： https://seata.io/zh-cn/
+* 源码： https://github.com/seata/seata

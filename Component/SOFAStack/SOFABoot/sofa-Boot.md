@@ -1,14 +1,6 @@
 ## SOFABoot
 
-源码: https://github.com/sofastack/sofa-boot
-
-网站： https://tech.antfin.com/docs/2/48619
-
-网站： https://www.sofastack.tech/projects/sofa-boot/overview/
-
 > SOFABoot 是蚂蚁金服开源的基于 Spring Boot 的研发框架，它在 Spring Boot 的基础上，提供了诸如 Readiness Check，类隔离，日志空间隔离等等能力。在增强了 Spring Boot 的同时，SOFABoot 提供了让用户可以在 Spring Boot 中非常方便地使用 SOFA 中间件的能力。
-> 
-> 参考： 官网和官方GitHub
 
 ### 目录
 * [背景（Spring Boot的局限性）](#背景)
@@ -21,6 +13,7 @@
 * [基础术语](#基础术语)
 * [安装和使用](sofa-Boot-install.md)
 * [快速开始](sofa-Boot-quick-start.md)
+* [参考](#参考)
 
 ### 背景
 Spring Boot 是一个非常优秀的开源框架，可以非常方便地就构建出一个基于 Spring 的应用程序，但是在使用过程中，还是会遇到一些问题：
@@ -80,7 +73,6 @@ Spring Boot基础上开发，兼容Spring
 Spring Boot框架
 
 ### 基础术语
-
 <table>
   <tr><th>术语</th><th>英文</th><th>说明</th></tr>
   <tr><td>Dubbo</td><td>Dubbo</td><td>Dubbo 是一个分布式服务框架，致力于提供高性能和透明化的 RPC 远程服务调用方案，是阿里巴巴 SOA 服务化治理方案的核心框架，每天为 2,000+ 个服务提供 3,000,000,000+ 次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。</td></tr>
@@ -114,4 +106,7 @@ Spring Boot框架
   <tr><td>消息队列</td><td>Message Queue</td><td>消息代理组件，主要应用于分布式系统或组件之间的消息通讯。</td></tr>
 </table>
 
-
+### 参考
+* 源码: https://github.com/sofastack/sofa-boot
+* 网站： https://tech.antfin.com/docs/2/48619
+* 网站： https://www.sofastack.tech/projects/sofa-boot/overview/

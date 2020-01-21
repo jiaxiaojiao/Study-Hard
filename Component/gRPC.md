@@ -1,8 +1,5 @@
 ## gRPC
 
-网站： https://grpc.io/
-
-源码： https://github.com/grpc/grpc
 
 ### 目录
 * [gRPC 是什么？](#是什么？)
@@ -47,4 +44,5 @@ gRPC是一个可以在任何环境中运行的现代开源高性能RPC框架。�
     * 基于http/2传输的双向流和完全集成的可插拔身份验证
 
 ### 参考
-* 官网
+* 网站： https://grpc.io/
+* 源码： https://github.com/grpc/grpc

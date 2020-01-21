@@ -195,4 +195,4 @@ public class DemoServiceConsumerBootstrap {
 `@PostConstruct` 部分代码则说明当 `DemoServiceConsumerBootstrap` Bean 初始化时，执行十次 Dubbo 远程方法调用。
 
 ### 参考
-* `https://nacos.io/zh-cn/docs/use-nacos-with-dubbo.html`
+* https://nacos.io/zh-cn/docs/use-nacos-with-dubbo.html
