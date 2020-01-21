@@ -1,22 +1,9 @@
 ## Docker
 **_学习_**
 
-网站： https://www.docker.com/
-
-GitHub: https://github.com/docker
-
-中文社区： http://www.docker.org.cn/
-
-中文文档： http://www.dockerinfo.net/document
-
 > Debug your app, not your environment  调试应用程序，而不是调试环境。
 >
 > Securely build, share and run any application, anywhere
->
-> 参考： 官网，GitHub，中文社区，
-> https://www.cnblogs.com/micrari/p/6748072.html， 
-> https://www.gitdig.com/k8s-my-definition/ ，
-> https://zhuanlan.zhihu.com/p/53260098 
 
 ### 目录
 * [Docker是什么？](#是什么？)
@@ -36,23 +23,22 @@ GitHub: https://github.com/docker
 * [Docker和Moby](#Docker和Moby)
 * [Docker的版本](#Docker的版本)
 * [Docker和K8s](#Docker和K8s)
+* [参考](#参考)
 
 ### 是什么？
-
 Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的Linux机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
 
 Docker 项目的目标是实现轻量级的操作系统虚拟化解决方案。 Docker 的基础是 Linux 容器（LXC）等技术。在 LXC 的基础上 Docker 进行了进一步的封装，让用户不需要去关心容器的管理，使得操作更为简便。用户操作 Docker 的容器就像操作一个快速轻量级的虚拟机一样简单。
 
 *Docker本身并不是容器，它是创建容器的工具，是应用容器引擎。
-### 历史
 
+### 历史
 * 2010年，几个搞IT的年轻人，在美国旧金山成立了一家名叫“dotCloud”的公司。主要提供基于PaaS的云计算技术服务。具体来说，是和**[LXC](#LXC是什么)**有关的容器技术。
 * 后来，dotCloud公司将自己的容器技术进行了简化和标准化，并命名为——Docker。它基于 Google 公司推出的 Go 语言实现。
 * 2013年3月，Docker项目开源。加入了 Linux 基金会，遵从了 Apache 2.0 协议，项目代码在 GitHub 上进行维护。
 * Docker 自开源后受到广泛的关注和讨论，以至于 dotCloud 公司后来都改名为 Docker Inc。Redhat 已经在其 RHEL6.5 中集中支持 Docker；Google 也在其 PaaS 产品中广泛应用。
 
 ### 功能
-
 Docker 是一个软件部署的解决方案，轻量级的应用容器框架，可以打包、发布、运行任何的应用。
 
 在任何地方开发、部署和运行任何应用。 Docker是一款针对程序开发人员和系统管理员来开发、部署、运行应用的一款虚拟化平台。Docker 可以让你像使用集装箱一样快速的组合成应用，并且可以像运输标准集装箱一样，尽可能的屏蔽代码层面的差异。Docker 会尽可能的缩短从代码测试到产品部署的时间。
@@ -62,12 +48,10 @@ Docker组件：
 * Docker Hub。 可以分享和管理你的images镜像的一个 Saas 服务。
 
 ### 为什么选择Docker
-
 1. 快速交付应用程序
 2. 快速构建 轻松管理
 
 ### Docker和Moby
-
 **原来在Github上托管的docker也随着PR#32691的合入正式变为Moby，为什么呢？**
 
 **官方说法**： 
@@ -95,20 +79,29 @@ Moby主要针对的人群是想要组装一个基于容器的系统的人，包�
 他在平衡社区的生态与各方开发者的情感以及自己商业化道路之间复杂微妙的关系。
 
 ### Docker的版本
-
 * moby是继承了原先的docker的项目，是社区维护的的开源项目
 * docker-ce是docker公司维护的开源项目，是一个基于moby项目的免费的容器产品
 * docker-ee是docker公司维护的闭源产品，是docker公司的商业产品。
 
 ### Docker和K8s
-
 Docker容器技术是Kubernetes平台的基础。容器技术主要作用是隔离，通过对系统的关键资源的隔离，实现了主机抽象。Kubernetes平台则是在抽象主机的基础上，实现了集群抽象。
 
 容器，提供应用级的主机抽象；Kubernetes，提供应用级的集群抽象。
 
-
 ### LXC是什么
-
 LXC为Linux Container的简写。
 
 Linux 容器是一种内核虚拟化技术，可以提供轻量级的虚拟化，以便隔离进程和资源。
+
+### 参考
+* 网站 `https://www.docker.com/`
+* 源码 `https://github.com/docker`
+* 中文社区 `http://www.docker.org.cn/`
+* 中文文档 `http://www.dockerinfo.net/document`
+* Docker 菜鸟教程 `https://www.runoob.com/docker/docker-tutorial.html`
+* 使用 Docker Hub 仓库 `https://www.jianshu.com/p/94eb79825372`
+* 上传 Docker Hub 仓库 `https://www.hangge.com/blog/cache/detail_2409.html`
+* LXC是什么 `https://linuxcontainers.org/lxc/introduction/`
+* Docker改名为Moby了吗？ `https://www.cnblogs.com/micrari/p/6748072.html`
+* Docker和Kubernetes `https://www.gitdig.com/k8s-my-definition/`
+* Docker和Kubernetes `https://zhuanlan.zhihu.com/p/53260098`
