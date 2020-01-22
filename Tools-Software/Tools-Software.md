@@ -13,6 +13,11 @@
 * 镜像
     * [阿里镜像](http://mirrors.aliyun.com/centos/)
     * [网易镜像](http://mirrors.163.com/centos/)
+* 电子书
+    * [电子书阅读器](https://calibre-ebook.com/)
+    * [Library Genesis](http://gen.lib.rus.ec/)
+    * [书伴](https://bookfere.com/)
+    * [亚马逊免费电子书](https://www.amazon.cn/b?ie=UTF8&node=116175071&tag=personalass1014-23)
 * [微信](WeChat.md)
 * [参考](#参考)
 
