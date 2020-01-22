@@ -1,6 +1,5 @@
 ## Docker Compose
 
-源码： `https://github.com/docker/compose`
 
 ### 目录
 * [Docker Compose 是什么？](#Docker-Compose-是什么？)
@@ -119,6 +118,7 @@ TypeError: a bytes-like object is required, not 'str'
 
 
 ### 参考
+* 源码： https://github.com/docker/compose
 * https://www.runoob.com/docker/docker-compose.html
 * https://github.com/docker/compose/releases
 * https://blog.51cto.com/msiyuetian/2369130

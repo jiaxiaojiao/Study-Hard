@@ -4,4 +4,4 @@
 * [参考](#参考)
 
 ### 参考
-* 网站 https://etcd.io/
+* 网站： https://etcd.io/

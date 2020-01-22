@@ -92,5 +92,5 @@ Nacos 通过提供简单易用的动态服务发现、服务配置、服务共�
     * Nacos 完全兼容和无缝支持 Spring Cloud的相关API及主要相关功能，你可以将Nacos作为SpringCloud Config Server的配置服务或者Eureka/Consul/ZooKeeper等的服务发现产品的更好替代者，Nacos 在配置管理和服务管理上带来了很多面向生产及微服务治理所需要的特性增强。
 
 ### 参考
-* 网站 https://nacos.io/zh-cn/
-* 源码 https://github.com/alibaba/nacos
+* 网站： https://nacos.io/zh-cn/
+* 源码： https://github.com/alibaba/nacos

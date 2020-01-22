@@ -69,5 +69,5 @@ XssNginxModule
 ```
 
 ### 参考
-* 网站 http://openresty.org/cn/
-* 源码 https://github.com/openresty/openresty
+* 网站： http://openresty.org/cn/
+* 源码： https://github.com/openresty/openresty

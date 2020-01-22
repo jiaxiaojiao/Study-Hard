@@ -18,5 +18,5 @@ Spinnaker 出自 Netflix，它更关注持续部署而非持续集成。它可�
 谈到持续部署，一些另类但却至关重要的问题往往被忽略掉了，说出来可能有点让人困惑：Spinnaker 可以帮助持续部署不那么“持续”。在整个应用部署流程期间，如果发生了重大问题，它可以让流程停止执行，以阻止可能发生的部署错误。但它也可以在最关键的时刻让人工审核强制通过，发布新版本上线，使整体收益最大化。实际上，CI/CD 的主要目的就是在商业模式需要调整时，能够让待更新的代码立即得到部署。
 
 ### 参考
-* 网站 https://www.spinnaker.io/
-* 源码 https://github.com/spinnaker/spinnaker
+* 网站： https://www.spinnaker.io/
+* 源码： https://github.com/spinnaker/spinnaker

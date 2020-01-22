@@ -8,4 +8,4 @@
 Thymeleaf是一个流行的模板引擎，该模板引擎采用Java语言开发。
 
 ### 参考
-* 网站 https://www.thymeleaf.org/index.html
+* 网站： https://www.thymeleaf.org/index.html

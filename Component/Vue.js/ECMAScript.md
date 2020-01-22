@@ -35,6 +35,6 @@ ES6 既是一个历史名词，也是一个泛指，含义是 5.1 版以后的 J
 * ES2019/ES10(第10个版本)  https://www.ecma-international.org/ecma-262/10.0/index.html
 
 ### 参考
-* ecma `https://www.ecma-international.org/`
-* ES6 中文文档 `http://es6.ruanyifeng.com/#README`
-* ECMAScript 版本 `https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources`
+* ecma： https://www.ecma-international.org/
+* ES6 中文文档： http://es6.ruanyifeng.com/#README
+* ECMAScript 版本： https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Resources

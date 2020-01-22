@@ -10,5 +10,5 @@
 免费&开源的CI/CD服务器。
 
 ### 参考
-* 网站 https://www.gocd.org/
-* 源码 https://github.com/gocd/gocd
+* 网站： https://www.gocd.org/
+* 源码： https://github.com/gocd/gocd

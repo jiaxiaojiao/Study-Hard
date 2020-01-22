@@ -29,8 +29,8 @@
 ### 配置和使用
 
 ### 参考
-* Nacos监控手册-配置grafana告警 https://nacos.io/zh-cn/docs/monitor-guide.html
-* Grafana https://grafana.com/
+* Nacos监控手册-配置grafana告警： https://nacos.io/zh-cn/docs/monitor-guide.html
+* Grafana： https://grafana.com/
 * https://baijiahao.baidu.com/s?id=1637241250614233036&wfr=spider&for=pc
 * https://www.cnblogs.com/cjsblog/p/11288530.html
 * https://baijiahao.baidu.com/s?id=1637241250614233036&wfr=spider&for=pc

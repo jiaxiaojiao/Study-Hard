@@ -24,4 +24,4 @@
 * Chubby：Google 公司实现的粗粒度分布式锁服务，底层利用了 Paxos 一致性算法。
 
 ### 参考
-*  `https://www.jianshu.com/p/a1ebab8ce78a`
+*  https://www.jianshu.com/p/a1ebab8ce78a

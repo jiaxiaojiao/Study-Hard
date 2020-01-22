@@ -12,5 +12,5 @@ GitLab是一个开源的端到端软件开发平台，内置了版本控制、�
 
 
 ### 参考
-* 网站 https://about.gitlab.com/product/continuous-integration/
-* 源码 https://gitlab.com/gitlab-org/gitlab-foss
+* 网站： https://about.gitlab.com/product/continuous-integration/
+* 源码： https://gitlab.com/gitlab-org/gitlab-foss

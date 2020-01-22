@@ -229,4 +229,4 @@ public class DubboSpringCloudClientBootstrap {
 
 
 ### 参考
-* Dubbo Spring Cloud 示例工程 `https://github.com/alibaba/spring-cloud-alibaba/blob/master/spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/README_CN.md`
+* Dubbo Spring Cloud 示例工程： https://github.com/alibaba/spring-cloud-alibaba/blob/master/spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/README_CN.md

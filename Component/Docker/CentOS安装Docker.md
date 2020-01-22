@@ -1,6 +1,5 @@
 ## Docker安装 CentOS
 
-> 参考： http://www.dockerinfo.net/docker%e5%ae%89%e8%a3%85-centos
 
 ### 目录
 * [支持Docker的CentOS版本](#支持Docker的CentOS版本)
@@ -9,6 +8,7 @@
 * [自定义进程选项](#自定义进程选项)
 * [Dockerfiles](#Dockerfiles)
 * [具体命令和安装明细](#具体命令和安装明细)
+* [参考](#参考)
 
 ### 支持Docker的CentOS版本
 
@@ -374,9 +374,5 @@ exit
 ```
 
 
-
-
-
-
-
-
+### 参考
+* http://www.dockerinfo.net/docker%e5%ae%89%e8%a3%85-centos

@@ -49,5 +49,5 @@ Jenkins 支持各种运行方式，可通过系统包、Docker 或者通过一�
 可以运行在Windows、Mac OS X 和其他类 Unix 操作系统。
 
 ### 参考
-* 网站 https://jenkins.io/zh/
-* 源码 https://github.com/jenkinsci/jenkins
+* 网站： https://jenkins.io/zh/
+* 源码： https://github.com/jenkinsci/jenkins

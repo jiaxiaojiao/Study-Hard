@@ -6,4 +6,4 @@
 * [参考](#参考)
 
 ### 参考
-* 网站：https://laravel.com/
+* 网站： https://laravel.com/

@@ -22,8 +22,8 @@
 2. 使用镜像（京东镜像，淘宝镜像）
 
 ### 参考
-* 网站 https://webpack.js.org/
-* 源码 https://webpack.github.io/
-* 源码 https://github.com/webpack/webpack
+* 网站： https://webpack.js.org/
+* 源码： https://webpack.github.io/
+* 源码： https://github.com/webpack/webpack
 
 

@@ -20,4 +20,4 @@ CNCF是一个开源软件基金会，它致力于云原生（Cloud Native）技�
 6. 云便携性
 
 ### 参考
-* 网站 https://www.cncf.io/
+* 网站： https://www.cncf.io/

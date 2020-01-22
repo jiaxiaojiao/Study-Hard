@@ -255,7 +255,7 @@ feign.client.config.default.logger-level=basic
 * 自己写的使用feign代码： https://github.com/jiaxiaojiao/Study-SpringBoot/tree/master/ordercenter
 * https://spring.io/projects/spring-cloud-openfeign
 * https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html
-* 配置 https://blog.51cto.com/zero01/2424667
+* 配置： https://blog.51cto.com/zero01/2424667
 * https://blog.csdn.net/chengqiuming/article/details/80713471
 * https://blog.csdn.net/antma/article/details/81317707
 * https://blog.csdn.net/wo18237095579/article/details/83343915

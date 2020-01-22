@@ -117,14 +117,14 @@ Istio 服务治理：
 </table>
 
 ### 参考
-* 网站 https://istio.io/
-* 源码 https://github.com/istio/istio
-* 中文文档 https://preliminary.istio.io/zh/docs/concepts/what-is-istio/
+* 网站： https://istio.io/
+* 源码： https://github.com/istio/istio
+* 中文文档： https://preliminary.istio.io/zh/docs/concepts/what-is-istio/
 * Bilibili-向上的信念-Istio教程 
 * https://developers.redhat.com/blog/2018/03/20/istio-circuit-breaker-pool-ejection/
 * https://docs.flagger.app/usage/ab-testing
 * https://www.oreilly.com/library/view/chaos-engineering/9781491988459/
 * https://blog.csdn.net/weixin_44175121/article/details/88045370
 * https://blog.csdn.net/qq_33873431/article/details/89524554
-* Pilot多云平台服务发现机制 https://www.cnblogs.com/CCE-SWR/p/9989869.html
-* Service Mesh http://www.360doc.com/content/18/0610/16/10346540_761194082.shtml
+* Pilot多云平台服务发现机制： https://www.cnblogs.com/CCE-SWR/p/9989869.html
+* Service Mesh： http://www.360doc.com/content/18/0610/16/10346540_761194082.shtml

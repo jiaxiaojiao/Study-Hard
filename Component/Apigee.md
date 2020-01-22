@@ -12,5 +12,5 @@ Apigee提供从API设计、开发、管理、门户、网关等API全生命周�
 Apigee支持6种代理方式，路由前端服务到后端、RESTFul转换为SOAP、Node.js APP等
 
 ### 参考
-* 网站 https://apigee.com/ 国内无法访问
+* 网站： https://apigee.com/ 国内无法访问
 * https://www.cnblogs.com/cbcye/p/Apigee-chu-bu-shi-yong.html

@@ -10,5 +10,5 @@
 * [参考](#参考)
 
 ### 参考
-* 网站 https://www.php.net/
-* 源码 https://github.com/php/php-src
+* 网站： https://www.php.net/
+* 源码： https://github.com/php/php-src

@@ -42,6 +42,6 @@ Open-Falcon是小米开源的企业级监控工具，用Go语言开发而成，�
 * Dashboard：面向用户的监控数据查询和告警配置界面。
 
 ### 参考
-* 网站 http://open-falcon.org/
-* 源码 https://github.com/open-falcon/falcon-plus
-* 文档 https://book.open-falcon.org/zh_0_2/
+* 网站： http://open-falcon.org/
+* 源码： https://github.com/open-falcon/falcon-plus
+* 文档： https://book.open-falcon.org/zh_0_2/

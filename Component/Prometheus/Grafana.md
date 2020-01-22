@@ -63,12 +63,12 @@ Grafana类似Kibana, 是对后端的数据进行实时展示。
 
 
 ### 参考
-* 网站 https://grafana.com/
-* 文档 https://grafana.com/docs/grafana/latest/
+* 网站： https://grafana.com/
+* 文档： https://grafana.com/docs/grafana/latest/
 * 源码 https://github.com/grafana/grafana
-* Grafana下载 https://grafana.com/grafana/download?platform=docker
-* Grafana文档-使用Prometheus作为数据源 https://grafana.com/docs/grafana/latest/features/datasources/prometheus/
+* Grafana下载： https://grafana.com/grafana/download?platform=docker
+* Grafana文档-使用Prometheus作为数据源： https://grafana.com/docs/grafana/latest/features/datasources/prometheus/
 * https://www.jianshu.com/p/7e7e0d06709b
 * https://www.jianshu.com/p/0d82c7ccc85a
 * https://www.jianshu.com/p/3527f48165d7
-* Grafana导入导出Dashboard模板， 删除Dashboard https://blog.csdn.net/HYZX_9987/article/details/101023503
+* Grafana导入导出Dashboard模板， 删除Dashboard： https://blog.csdn.net/HYZX_9987/article/details/101023503

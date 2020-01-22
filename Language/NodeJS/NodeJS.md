@@ -8,6 +8,6 @@
 * [参考](#参考)
 
 ### 参考
-* 网站 https://nodejs.org/en/
-* 源码 https://github.com/nodejs/node
-* 源码 https://github.com/nodejs/nodejs.org
+* 网站： https://nodejs.org/en/
+* 源码： https://github.com/nodejs/node
+* 源码： https://github.com/nodejs/nodejs.org

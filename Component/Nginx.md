@@ -31,6 +31,6 @@ Nginx有开源版本和商用版，商用版是Nginx Plus。
 在连接高并发的情况下，Nginx是Apache服务不错的替代品
 
 ### 参考
-* 网站 http://nginx.org/
-* 文档 https://www.nginx.com/resources/wiki/
-* 中文 文档 http://www.nginx.cn/doc/index.html
+* 网站： http://nginx.org/
+* 文档： https://www.nginx.com/resources/wiki/
+* 中文 文档： http://www.nginx.cn/doc/index.html
