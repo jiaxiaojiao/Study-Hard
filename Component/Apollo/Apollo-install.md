@@ -3,7 +3,7 @@
 ### 目录
 * [Quick Start快速开始](#快速开始)
 * [Docker方式Quick Start快速开始](#Docker方式快速开始)
-* [分布式部署](#分布式部署)
+* [分布式部署](Apollo-install-Distributed.md)
 * [参考](#参考)
 
 ### 快速开始
@@ -26,17 +26,6 @@
 * 下载Docker Quick Start配置文件, `https://github.com/ctripcorp/apollo/tree/master/scripts/docker-quick-start`
 * 启动Apollo配置中心。在docker-quick-start目录下执行`docker-compose up`
 * 使用Apollo配置中心
-
-### 分布式部署
-安装文档： 
-`https://github.com/ctripcorp/apollo/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97`
-
-* Linux (CentOS7)
-* Java 1.8
-* MySQL 5.6.5+
-* 创建数据库
-* 获取安装包
-* 部署Apollo服务端 
 
 ### 参考
 * https://github.com/ctripcorp/apollo/

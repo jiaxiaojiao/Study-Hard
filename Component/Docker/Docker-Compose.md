@@ -51,6 +51,22 @@ $ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 docker-compose version 1.25.0, build 0a186604
 ```
 
+操作日志2：
+```text
+# 虚拟机安装docker-compose （宿主机Mac）
+[root@localhost local]# curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   617  100   617    0     0    846      0 --:--:-- --:--:-- --:--:--   846
+100 16.3M  100 16.3M    0     0   543k      0  0:00:30  0:00:30 --:--:--  911k
+[root@localhost local]# docker-compose --version
+-bash: /usr/local/bin/docker-compose: 权限不够
+[root@localhost local]# chmod +x /usr/local/bin/docker-compose 
+[root@localhost local]# docker-compose --version
+docker-compose version 1.25.4, build 8d51620a
+[root@localhost local]# 
+```
+
 ### 异常 报错
 * 启动单机版报错
     * 尝试重启虚拟机。 再次启动不报错，但是Nacos服务没有启动。 NO
