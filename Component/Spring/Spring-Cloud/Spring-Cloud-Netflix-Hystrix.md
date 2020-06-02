@@ -22,3 +22,4 @@ Hystrix为了实现高可用性的架构，有以下设计原则：
 * 网站： https://spring.io/projects/spring-cloud-netflix
 * 源码： https://github.com/Netflix/Hystrix
 * https://blog.csdn.net/Anbang713/article/details/85591774
+* https://my.oschina.net/chenshiyue/blog/880064

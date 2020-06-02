@@ -110,3 +110,6 @@ Spring Boot框架
 * 源码: https://github.com/sofastack/sofa-boot
 * 网站： https://tech.antfin.com/docs/2/48619
 * 网站： https://www.sofastack.tech/projects/sofa-boot/overview/
+* https://tech.antfin.com/products/SOFABoot
+* https://www.jianshu.com/p/f69cfdb40cd2
+* https://www.sofastack.tech/projects/

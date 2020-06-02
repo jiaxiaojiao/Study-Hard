@@ -71,4 +71,5 @@ Grafana类似Kibana, 是对后端的数据进行实时展示。
 * https://www.jianshu.com/p/7e7e0d06709b
 * https://www.jianshu.com/p/0d82c7ccc85a
 * https://www.jianshu.com/p/3527f48165d7
+* https://blog.csdn.net/wmj2004/article/details/83115578
 * Grafana导入导出Dashboard模板， 删除Dashboard： https://blog.csdn.net/HYZX_9987/article/details/101023503

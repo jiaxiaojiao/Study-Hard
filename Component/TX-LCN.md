@@ -99,3 +99,8 @@ LCN5.0.2有3种模式，分别是LCN模式，TCC模式，TXC模式。
 * Demo： https://github.com/codingapi/springcloud-lcn-demo
 * 其他： https://github.com/1991wangliang/tx-lcn
 * https://blog.csdn.net/ningjiebing/article/details/89948050
+* https://www.cnblogs.com/SimpleWu/p/10922654.html
+* https://www.cnblogs.com/jiangyu666/p/8522547.html
+* https://www.cnblogs.com/dousnl/p/9772605.html
+* https://www.cnblogs.com/bluemiaomiao/p/11216380.html
+* https://www.cnblogs.com/jing99/p/11769093.html

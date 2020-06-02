@@ -49,3 +49,8 @@ Apache Dubbo `|ˈdʌbəʊ|` 是一款高性能、轻量级的开源Java RPC框�
 ### 参考
 * 网站： http://dubbo.apache.org/zh-cn/
 * 源码： https://github.com/apache/dubbo
+* https://blog.csdn.net/q258523454/article/details/102934043
+* https://blog.51cto.com/13902811/2155442
+* http://www.hxstrive.com/article/626.htm
+* https://blog.csdn.net/chao_1990/article/details/89886880
+

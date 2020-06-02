@@ -58,4 +58,14 @@
 ### 参考
 * 网站： https://www.influxdata.com/
 * 源码： https://github.com/influxdata/influxdb
+* InfluxDB 中文文档 https://jasper-zhang1.gitbooks.io/influxdb/content/
+* InfluxDB 基本操作 https://www.cnblogs.com/wzbk/p/10569683.html
+* InfluxDB 安装 https://www.jianshu.com/p/5968e7aa1e1f
+* InfluxDB 安装 https://wenku.baidu.com/view/7d19241e24c52cc58bd63186bceb19e8b8f6ec8d.html
+* 安装 https://www.cnblogs.com/tianqing/p/7153023.html
+* 配置 https://www.cnblogs.com/zouhao/p/10239754.html
+* 数据保留 https://blog.51cto.com/jiayimeng/2393647?source=dra
+* https://v2.docs.influxdata.com/v2.0/get-started/
+* http://www.ttlsa.com/monitor-safe/monitor/distributed-time-series-database-influxdb/
+* https://www.jianshu.com/p/f0905f36e9c3
 

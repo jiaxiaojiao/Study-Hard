@@ -141,4 +141,15 @@ K8s是一个开源的容器集群管理系统，可以实现容器集群的自�
 * https://www.jianshu.com/p/94e551534035
 * https://blog.csdn.net/wzq756984/article/details/88977439
 * 哔哩哔哩-尚硅谷 Kubernetes
+* K8S 基础概念 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9769373164489957562%22%7D&n_type=1&p_from=3
+* K8S 整体架构 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_8356215115788082784%22%7D&n_type=1&p_from=3
+* K8S 基础 https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/
+* K8S 安装 https://blog.csdn.net/zzq900503/article/details/81710319
+* K8S 部署 https://blog.51cto.com/13992834/2287015
+* K8S 搭建 http://docs.kubernetes.org.cn/774.html#i
+* K8S 安装部署 https://blog.csdn.net/hanghangaidoudou/article/details/86485308
+* K8S 运行 https://www.kubernetes.org.cn/doc-5
+* K8S 扫盲  https://blogs.vmware.com/china/2018/01/18/%E5%86%99%E7%BB%99-vmware-%E7%94%A8%E6%88%B7%E7%9C%8B%E7%9A%84-kubernetes-%E6%89%AB%E7%9B%B2%E8%B4%B4/
+* K8S 发展史 https://www.cnblogs.com/chenqionghe/p/11454248.html
+
 

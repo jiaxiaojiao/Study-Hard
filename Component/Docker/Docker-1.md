@@ -106,3 +106,15 @@ Linux 容器是一种内核虚拟化技术，可以提供轻量级的虚拟化�
 * Docker和Kubernetes： https://www.gitdig.com/k8s-my-definition/
 * Docker和Kubernetes： https://zhuanlan.zhihu.com/p/53260098
 * 微服务框架（Spring Boot + Dubbo + Docker + Jenkins）： https://zhuanlan.zhihu.com/p/33296468
+* https://www.runoob.com/docker/docker-compose.html
+* https://hub.docker.com/_/tomcat?tab=description
+* https://www.runoob.com/docker/docker-container-connection.html
+* https://www.jianshu.com/p/b8625ccb5e9c
+* https://www.cnblogs.com/kofsony/p/11101373.html
+* https://www.cnblogs.com/brock0624/p/9795208.html
+* http://www.dockerinfo.net/%e9%ab%98%e7%ba%a7%e7%bd%91%e7%bb%9c%e9%85%8d%e7%bd%ae
+* https://blog.csdn.net/feng15212780969/article/details/79612892
+* https://blog.csdn.net/ucmir183/article/details/84454575
+* https://blog.csdn.net/u011781521/article/details/80468985
+* https://www.cnblogs.com/cjsblog/p/10778493.html
+* https://www.docker.com/

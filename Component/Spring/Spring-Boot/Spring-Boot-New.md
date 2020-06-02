@@ -89,3 +89,9 @@ artifactId: ordercenter
 * 异常。 controller找不到service，原因 XXApplication的目录需要在所有子节点的上一级。
 * 疑问。`mysql-connector-java` 依赖到底放到user-web 还是user-dao？。 我放在user-web，没有问题。
 * 疑问。 `spring-boot-starter` 依赖什么用，到底放哪儿呢，需要子节点项目都放吗？  我放在 user-service 、 user-interface、 父节点，目测没有问题。有问题再说吧。
+
+
+### 参考
+* https://www.jianshu.com/p/cac4759b2684
+* https://blog.csdn.net/hu_zhiting/article/details/84577702
+* https://blog.csdn.net/horacehe16/article/details/79811763

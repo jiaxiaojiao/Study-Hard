@@ -49,3 +49,7 @@ ps ax |grep java
 
 ```
 
+### 安装wget命令
+```text
+yum -y install wget
+```

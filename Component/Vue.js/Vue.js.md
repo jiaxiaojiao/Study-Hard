@@ -55,4 +55,6 @@ Vue.js 是一个JavaScriptMVVM库，是一套构建用户界面的渐进式框�
 * 用户指南： https://vuejs.org/v2/guide/syntax.html  
 * 用户指南-中文： https://cn.vuejs.org/v2/guide/syntax.html
 * https://zhuanlan.zhihu.com/p/23134551
+* https://www.cnblogs.com/gluncle/p/8608277.html
+* https://www.cnblogs.com/liluxiang/p/9592003.html
 

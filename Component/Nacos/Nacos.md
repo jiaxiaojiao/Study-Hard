@@ -94,3 +94,6 @@ Nacos 通过提供简单易用的动态服务发现、服务配置、服务共�
 ### 参考
 * 网站： https://nacos.io/zh-cn/
 * 源码： https://github.com/alibaba/nacos
+* http://console.nacos.io/nacos/index.html#/login
+* https://github.com/nacos-group/nacos-spring-boot-project
+

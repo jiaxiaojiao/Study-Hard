@@ -39,3 +39,7 @@ Zipkin提供了可插拔数据存储方式：In-Memory、MySql、Cassandra以及
 * 网站： https://zipkin.io/
 * 源码： https://github.com/openzipkin/zipkin
 * https://www.jianshu.com/p/4fa81b661f55
+* https://my.oschina.net/u/3770892/blog/3005395
+* https://blog.csdn.net/crave_shy/article/details/81365668
+* https://www.jianshu.com/p/7f6654657417
+* https://www.cnblogs.com/jsjwk/p/10937991.html

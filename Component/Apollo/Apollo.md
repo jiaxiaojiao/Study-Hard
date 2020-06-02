@@ -141,3 +141,6 @@ Java客户端不依赖任何框架，能够运行于所有Java运行时环境，
 ### 参考
 * 源码： https://github.com/ctripcorp/apollo
 * 源码： https://gitee.com/lepdou/apollo
+* https://blog.csdn.net/u012798703/article/details/81099222
+* https://www.jianshu.com/p/d78fa8412cbf
+* https://www.cnblogs.com/boboooo/p/8796636.html?utm_source=debugrun&utm_medium=referral
