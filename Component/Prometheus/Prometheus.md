@@ -195,3 +195,13 @@ Prometheus 监控服务器：
 * https://blog.52itstyle.vip/archives/1984/
 * https://www.cnblogs.com/duanxz/p/10179512.html
 * https://www.jianshu.com/p/3284507b2f87
+* https://blog.csdn.net/carson0408/article/details/99663649
+* https://blog.csdn.net/u010391342/article/details/88970133
+* https://blog.csdn.net/aixiaoyang168/article/details/98474494
+* https://www.cnblogs.com/longcnblogs/p/9620733.html
+* https://www.cnblogs.com/liujiliang/p/10080849.html
+* https://zhuanlan.zhihu.com/p/78290435
+* https://www.jianshu.com/p/bbfb1a4ff4c2
+* https://segmentfault.com/a/1190000018642077?utm_source=tag-newest
+* https://www.cnblogs.com/xidianzxm/p/11542135.html
+* https://www.cnblogs.com/chenqionghe/p/10494868.html
